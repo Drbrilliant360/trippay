@@ -1,0 +1,1394 @@
+{
+  "common": {
+    "comingSoon": "Inakuja hivi karibuni",
+    "copied": "Imenakiliwa",
+    "copy": "Nakili {value}",
+    "currency": "Sarafu",
+    "errorBody": "Hitilafu imetokea wakati wa kupakia. Pesa zako ziko salama — tafadhali jaribu tena.",
+    "errorTitle": "Imeshindikana kupakia",
+    "language": "Lugha",
+    "retry": "Jaribu tena",
+    "skipToContent": "Ruka hadi maudhui makuu",
+    "notFoundTitle": "Ukurasa haukupatikana",
+    "notFoundBody": "Ukurasa unaoutafuta haupo au umehamishwa.",
+    "goHome": "Rudi ukurasa wa mwanzo",
+    "actionFailedTitle": "Hatua haikukamilika",
+    "actionFailedBody": "Pesa yako iko salama — hakuna kilichobadilishwa. Tafadhali jaribu tena.",
+    "refreshFailed": "Imeshindikana kupakia upya. Tunaonyesha data ya mwisho kupakiwa."
+  },
+  "status": {
+    "created": "Imeundwa",
+    "awaiting_authorisation": "Inasubiri idhini",
+    "pending": "Inasubiri",
+    "successful": "Imefanikiwa",
+    "failed": "Imeshindikana",
+    "expired": "Muda umeisha",
+    "reversed": "Imerejeshwa nyuma",
+    "refunded": "Imerejeshwa",
+    "under_review": "Inakaguliwa",
+    "open": "Wazi",
+    "paid": "Imelipwa",
+    "cancelled": "Imeghairiwa",
+    "active": "Inaendelea",
+    "paused": "Imesimamishwa",
+    "completed": "Imekamilika",
+    "settled": "Imetatuliwa",
+    "delayed": "Imechelewa",
+    "matched": "Zinalingana",
+    "mismatch": "Hazilingani",
+    "in_progress": "Inaendelea",
+    "operational": "Inafanya kazi",
+    "degraded": "Imepungua ubora",
+    "down": "Haipatikani",
+    "investigating": "Inachunguzwa",
+    "rejected": "Imekataliwa",
+    "waiting": "Inakusubiri",
+    "resolved": "Imetatuliwa",
+    "invited": "Amealikwa",
+    "suspended": "Imesitishwa",
+    "approved": "Imeidhinishwa",
+    "more_info": "Taarifa zaidi zinahitajika",
+    "unverified": "Haijathibitishwa",
+    "verified": "Imethibitishwa"
+  },
+  "nav": {
+    "mainNav": "Menyu kuu",
+    "home": "Nyumbani",
+    "wallet": "Pochi",
+    "pay": "Lipa",
+    "activity": "Miamala",
+    "profile": "Wasifu",
+    "notifications": "Arifa",
+    "savings": "Akiba",
+    "rates": "Viwango",
+    "transfer": "Hamisha",
+    "financing": "Ufadhili",
+    "assistant": "Msaidizi",
+    "support": "Msaada",
+    "navLabel": "Menyu ya msafiri"
+  },
+  "bizNav": {
+    "navLabel": "Menyu ya biashara",
+    "dashboard": "Dashibodi",
+    "requests": "Maombi ya malipo",
+    "transactions": "Miamala",
+    "suppliers": "Wasambazaji",
+    "settlements": "Usuluhishi wa malipo",
+    "reports": "Ripoti",
+    "team": "Timu",
+    "settings": "Mipangilio",
+    "support": "Msaada",
+    "verified": "Imethibitishwa",
+    "portalBadge": "Biashara"
+  },
+  "adminNav": {
+    "navLabel": "Menyu ya usimamizi",
+    "overview": "Muhtasari",
+    "verification": "Watumiaji na KYC",
+    "transactions": "Miamala",
+    "disputes": "Kesi za msaada",
+    "providers": "Watoa huduma",
+    "reconciliation": "Ulinganishaji",
+    "config": "Ada na vikomo",
+    "roles": "Majukumu",
+    "auditLog": "Kumbukumbu za ukaguzi",
+    "portalBadge": "Admin",
+    "environment": "Production",
+    "roleLabels": {
+      "admin_support": "Wakala wa Msaada",
+      "admin_risk": "Mchambuzi wa Hatari",
+      "admin_super": "Msimamizi"
+    }
+  },
+  "public": {
+    "navLabel": "Menyu ya tovuti",
+    "tagline": "Imejengwa kwa kila mdau wa utalii – Safiri • Lipa • Gundua",
+    "demoDisclaimer": "Mfano wa majaribio wenye data bandia. Hakuna malipo halisi yanayofanyika.",
+    "nav": {
+      "tourists": "Kwa watalii",
+      "businesses": "Kwa biashara",
+      "help": "Msaada",
+      "legal": "Sheria na faragha",
+      "login": "Ingia",
+      "howItWorks": "Jinsi inavyofanya kazi",
+      "support": "Msaada"
+    },
+    "footer": {
+      "navLabel": "Sheria na msaada",
+      "terms": "Masharti",
+      "privacy": "Taarifa ya Faragha",
+      "fees": "Ada",
+      "complaints": "Malalamiko",
+      "contact": "Wasiliana nasi",
+      "copyright": "© 2026 TripPay. [Taarifa ya leseni na udhibiti]"
+    }
+  },
+  "landing": {
+    "hero": {
+      "kicker": "Safiri • Lipa • Gundua",
+      "title": "Safiri kwa busara. Lipa kwa urahisi.",
+      "subtitle": "Panga, lipa na fuatilia pesa zako za safari — imejengwa kwa watalii na biashara za utalii zinazowahudumia.",
+      "ctaPrimary": "Anza sasa",
+      "ctaSecondary": "Kwa biashara",
+      "phone": {
+        "greeting": "Habari, David",
+        "totalAvailable": "Jumla inayopatikana",
+        "pending": "Inasubiri",
+        "pay": "Lipa"
+      },
+      "photoAlt": "Mlima Kilimanjaro wakati wa machweo"
+    },
+    "tourists": {
+      "kicker": "Kwa watalii",
+      "title": "Pesa za safari yako, kwa mpangilio",
+      "wallet": {
+        "title": "Pochi ya kidijitali",
+        "body": "Hifadhi TZS, USD, EUR na GBP huku zilizopo na zinazosubiri zikionyeshwa tofauti."
+      },
+      "scanPay": {
+        "title": "Skani ulipe",
+        "body": "Skani QR ya biashara, hakiki jina lililothibitishwa, thibitisha kisha ulipe."
+      },
+      "savings": {
+        "title": "Mpango wa Akiba ya Safari",
+        "body": "Weka lengo la safari yako uone cha kuweka akiba kila wiki."
+      },
+      "rates": {
+        "title": "Ufuatiliaji wa Sarafu",
+        "body": "Fuatilia USD, EUR na GBP dhidi ya TZS na uweke arifa za viwango."
+      }
+    },
+    "businesses": {
+      "kicker": "Kwa biashara",
+      "title": "Pokea malipo, lipa wasambazaji",
+      "wallet": {
+        "title": "Pochi ya biashara",
+        "body": "Salio moja kwa kila buking, na malipo ya mwisho unayoweza kufuatilia."
+      },
+      "requests": {
+        "title": "Maombi ya malipo na QR",
+        "body": "Tuma kiungo au QR iliyounganishwa na kumbukumbu ya buking."
+      },
+      "suppliers": {
+        "title": "Malipo kwa wasambazaji",
+        "body": "Lipa waongoza watalii, madereva na loji kwa idhini zilizojengwa ndani."
+      },
+      "reports": {
+        "title": "Ripoti",
+        "body": "Linganisha malipo na buking na uhamishe kwa mhasibu wako."
+      }
+    },
+    "how": {
+      "title": "Jinsi inavyofanya kazi",
+      "steps": {
+        "account": {
+          "title": "Fungua akaunti yako",
+          "body": "Chagua Kiingereza au Kiswahili ujisajili ndani ya dakika chache."
+        },
+        "verify": {
+          "title": "Thibitisha utambulisho wako",
+          "body": "Kwa kawaida hukaguliwa ndani ya saa 24."
+        },
+        "fund": {
+          "title": "Weka pesa",
+          "body": "Jaza kwa kadi, pesa za simu au uhamisho wa benki."
+        },
+        "pay": {
+          "title": "Lipa na ufuatilie",
+          "body": "Angalia biashara, ona ada, thibitisha. Pata risiti."
+        }
+      }
+    },
+    "trust": {
+      "title": "Pesa unazoweza kuamini",
+      "secure": {
+        "title": "Malipo salama",
+        "body": "Yamesimbwa kuanzia mwanzo hadi mwisho. Hatutawahi kukuuliza PIN yako."
+      },
+      "fees": {
+        "title": "Ada wazi",
+        "body": "Ona ada na jumla kabla ya kila malipo."
+      },
+      "receipts": {
+        "title": "Risiti kwa kila malipo",
+        "body": "Na kitambulisho cha kumbukumbu unachoweza kushiriki au kupakua."
+      },
+      "support": {
+        "title": "Msaada wa binadamu",
+        "body": "Watu halisi, kwa Kiingereza na Kiswahili."
+      }
+    },
+    "partners": {
+      "title": "Washirika wa malipo waliopangwa",
+      "placeholder": "[Nembo ya mshirika]"
+    },
+    "demo": {
+      "title": "Chunguza mfano huu",
+      "subtitle": "Milango yote mitatu inatumia data bandia halisia. Ingia moja kwa moja:",
+      "traveller": "Programu ya msafiri",
+      "business": "Mlango wa biashara",
+      "admin": "Mlango wa usimamizi"
+    },
+    "cta": {
+      "title": "Tayari kusafiri kwa busara?",
+      "body": "Fungua akaunti yako ya TripPay bila malipo kabla ya safari yako na ulipe kwa uhakika kote Tanzania.",
+      "button": "Anza sasa"
+    }
+  },
+  "tourists": {
+    "title": "Safiri Tanzania ukiwa na udhibiti wa pesa zako",
+    "subtitle": "Kuanzia kuweka akiba ya safari hadi risiti ya mwisho, TripPay inaweka kila malipo wazi, yakithibitishwa na kurekodiwa.",
+    "cta": "Anza sasa",
+    "points": {
+      "balances": {
+        "title": "Jua unachoweza kutumia",
+        "body": "Salio lililopo na linalosubiri ni tofauti, kwa kila sarafu unayomiliki."
+      },
+      "pay": {
+        "title": "Lipa biashara zilizothibitishwa",
+        "body": "Ona jina lililothibitishwa, kiasi, ada na jumla kabla ya chochote kutumwa."
+      },
+      "receipts": {
+        "title": "Hifadhi kila risiti",
+        "body": "Kila muamala una kumbukumbu, ratiba ya hali na risiti unayoweza kushiriki."
+      },
+      "savings": {
+        "title": "Weka akiba kwa ajili ya safari",
+        "body": "Weka lengo, fuatilia maendeleo, na upate pendekezo la mchango wa kila mwezi."
+      },
+      "rates": {
+        "title": "Fuatilia viwango vya kubadilisha fedha",
+        "body": "Fuatilia jozi za TZS na nyakati za bei wazi — viwango ni vya taarifa tu."
+      },
+      "help": {
+        "title": "Msaada unaojibu",
+        "body": "Msaidizi wa maswali ya haraka, na timu ya msaada ya watu wenye namba za kesi."
+      }
+    },
+    "heroAlt": "Kundi la tembo kwenye tambarare za Serengeti"
+  },
+  "businesses": {
+    "title": "Pokea malipo, linganisha, na ulipe wasambazaji wako",
+    "subtitle": "Dashibodi iliyojengwa kwa waendesha utalii, loji, waongoza watalii na wachuuzi — kila malipo yakioanishwa na buking yake.",
+    "cta": "Sajili biashara yako",
+    "points": {
+      "requests": {
+        "title": "Maombi ya malipo na QR",
+        "body": "Unda maombi yaliyofungwa na kumbukumbu za buking; wateja wanaona jina lako lililothibitishwa."
+      },
+      "reconcile": {
+        "title": "Linganisha na buking",
+        "body": "Kila malipo yanabeba kumbukumbu yake, ada, hali na taarifa za buking."
+      },
+      "suppliers": {
+        "title": "Lipa wasambazaji",
+        "body": "Malipo kwa wasambazaji waliothibitishwa, na idhini ya pili kwa kiasi kikubwa."
+      },
+      "settlements": {
+        "title": "Fuatilia usuluhishi",
+        "body": "Jumla, ada, halisi na muda unaotarajiwa kwa kila kundi la usuluhishi."
+      },
+      "reports": {
+        "title": "Pakua ripoti",
+        "body": "Pakua miamala yenye kumbukumbu, viasi, ada na hali."
+      },
+      "team": {
+        "title": "Majukumu ya timu",
+        "body": "Wamiliki, fedha na wafanyakazi wanaona kile tu jukumu lao linaruhusu."
+      }
+    },
+    "heroAlt": "Boti za uvuvi na za watalii ufukweni Zanzibar"
+  },
+  "help": {
+    "title": "Kituo cha msaada",
+    "subtitle": "Majibu ya haraka kuhusu malipo, ada na akaunti yako.",
+    "pinNotice": "TripPay haitawahi kukuuliza PIN yako au msimbo wa mara moja nje ya skrini maalum ya msimbo. Ripoti yeyote anayefanya hivyo.",
+    "faq": {
+      "pending": {
+        "q": "Malipo yangu yanaonyesha 'inasubiri'. Je, yameshindikana?",
+        "a": "Hapana. 'Inasubiri' inamaanisha tunasubiri uthibitisho wa mtoa huduma. Usilipe tena — tutasasisha hali na kukuarifu."
+      },
+      "fees": {
+        "q": "Ninaiona lini ada?",
+        "a": "Kila mara kabla hujathibitisha. Skrini ya kuhakiki inaonyesha kiasi, ada na jumla, na hakuna kinachotumwa mpaka uthibitishe."
+      },
+      "refund": {
+        "q": "Marejesho yanafanyaje kazi?",
+        "a": "Ikiwa malipo yameshindikana baada ya pesa kutoka kwenye pochi yako, au mfanyabiashara amekurejeshea, kiasi kinarudi kwenye pochi yako na kumbukumbu yake."
+      },
+      "verify": {
+        "q": "Kwa nini nithibitishe akaunti yangu?",
+        "a": "Uthibitishaji unakulinda wewe na biashara unazolipa. Baadhi ya vikomo vinaondolewa tu baada ya utambulisho wako kuthibitishwa."
+      },
+      "pin": {
+        "q": "Je, TripPay itawahi kuuliza PIN yangu ya pesa za simu?",
+        "a": "Kamwe. Unaidhinisha malipo ya pesa za simu kwenye kidokezo cha mtoa huduma wako mwenyewe. Wafanyakazi wa TripPay hawatawahi kuuliza PIN au misimbo."
+      },
+      "contact": {
+        "q": "Ninamfikiaje mtu halisi?",
+        "a": "Fungua 'Msaada' kwenye programu na uunde kesi. Utapata namba ya kesi na masasisho kwenye arifa zako."
+      }
+    }
+  },
+  "legal": {
+    "title": "Sheria na faragha",
+    "subtitle": "Muhtasari kwa lugha rahisi kwa mfano huu wa majaribio.",
+    "sections": {
+      "service": {
+        "title": "TripPay ni nini",
+        "body": "TripPay ni dhana ya bidhaa ya malipo ya usafiri na usimamizi wa pesa. Si benki, mkopeshaji, muuzaji wa fedha za kigeni wala soko la sarafu-mtandao. Huduma zinazodhibitiwa zinategemea washirika wenye leseni na idhini."
+      },
+      "fees": {
+        "title": "Ada",
+        "body": "Ada yoyote inaonyeshwa kwenye skrini ya kuhakiki kabla hujathibitisha malipo, na tena kwenye risiti. Ada zinatoka kwenye nukuu ya malipo, si mshangao."
+      },
+      "data": {
+        "title": "Data yako",
+        "body": "Tunakusanya tu kinachohitajika na huduma, tunaeleza kwa nini, na tunadhibiti nani anaweza kuiona. Wafanyakazi wa usimamizi wanaona data binafsi iliyofichwa kwa chaguo-msingi na kila kitendo nyeti kinarekodiwa."
+      },
+      "gated": {
+        "title": "Huduma zilizoandikwa \"zinakuja hivi karibuni\"",
+        "body": "Ufadhili wa safari, ubadilishaji wa fedha, uhamisho kati ya watumiaji na huduma za sarafu-mtandao zinahitaji idhini tofauti za kisheria na washirika. Zinaonyeshwa kwa uwazi lakini hazipatikani."
+      },
+      "contact": {
+        "title": "Mawasiliano",
+        "body": "Maswali kuhusu mfano huu au data yako: fungua kesi ya msaada kwenye programu."
+      }
+    },
+    "credits": {
+      "title": "Shukrani za picha",
+      "body": "Picha zinatumika chini ya leseni zao za Creative Commons, kwa shukrani kwa wapiga picha:"
+    }
+  },
+  "auth": {
+    "language": {
+      "utilityBar": "Mtandao wa escrow wa kiwango cha benki Tanzania",
+      "utilityStep": "Hatua 1 kati ya 4",
+      "help": "Unahitaji msaada?",
+      "panel": {
+        "tagline": "Malipo ya safari Tanzania",
+        "badge": "Usajili · Hatua ya 1",
+        "welcome": "Karibu TripPay",
+        "welcomeAlt": "Welcome",
+        "body": "Safiri kwa amani. Lipia safari, hoteli, magari ya safari na mbuga za wanyama bila kubeba mabunda ya pesa taslimu.",
+        "bodyAlt": "Travel light. Pay for tours, hotels and park fees without carrying bundles of cash.",
+        "currencies": "TZS · USD · EUR · GBP",
+        "protection": "Ulinzi wa escrow wenye leseni",
+        "copyright": "© 2026 TripPay",
+        "cities": "Arusha na Dar es Salaam"
+      },
+      "stepChip": "Hatua ya 1 / Step 1",
+      "stepCount": "1 / 4",
+      "title": "Chagua lugha",
+      "titleAlt": "Choose language",
+      "subtitle": "Chagua lugha unayopendelea kutumia katika akaunti yako ya TripPay. Unaweza kubadilisha wakati wowote kwenye wasifu wako.",
+      "subtitleAlt": "Select your preferred language. You can switch anytime in settings.",
+      "options": {
+        "en": {
+          "badge": "Default",
+          "description": "International traveller & global operator view"
+        },
+        "sw": {
+          "badge": "Lugha ya Taifa",
+          "description": "Kwa watalii, madereva wa safari, na wafanyabiashara"
+        }
+      },
+      "supportNote": "Usaidizi wa wateja unapatikana kwa Kiswahili na Kiingereza saa 24/7.",
+      "continue": "Endelea / Continue",
+      "haveAccount": "Tayari una akaunti?",
+      "loginLink": "Ingia / Log in",
+      "progressAria": "Maendeleo ya usajili: hatua 1 kati ya 4",
+      "steps": {
+        "s1": "1. Lugha",
+        "s2": "2. Akaunti",
+        "s3": "3. Thibitisha",
+        "s4": "4. Ukaguzi"
+      }
+    },
+    "steps": {
+      "language": "Lugha",
+      "account": "Akaunti",
+      "code": "Msimbo",
+      "verification": "Uthibitisho",
+      "aria": "Hatua {current} kati ya {total}"
+    },
+    "signup": {
+      "title": "Fungua akaunti yako ya TripPay",
+      "howUse": "Utatumiaje TripPay?",
+      "types": {
+        "traveller": {
+          "title": "Ninasafiri",
+          "body": "Panga, lipa na fuatilia pesa za safari"
+        },
+        "business": {
+          "title": "Nina biashara ya utalii",
+          "body": "Pokea malipo, lipa wasambazaji, linganisha buking"
+        }
+      },
+      "name": "Jina kamili",
+      "email": "Barua pepe",
+      "phone": "Namba ya simu",
+      "dialCode": "Msimbo wa nchi",
+      "password": {
+        "label": "Nenosiri",
+        "strength": "Uimara: {level}",
+        "levels": {
+          "weak": "Dhaifu",
+          "fair": "Wastani",
+          "good": "Nzuri",
+          "strong": "Imara"
+        },
+        "tips": {
+          "length": "tumia angalau herufi 8",
+          "uppercase": "ongeza herufi kubwa ili kuliimarisha",
+          "number": "ongeza namba ili kuliimarisha",
+          "symbol": "ongeza alama ili kuliimarisha zaidi"
+        }
+      },
+      "terms": "Nakubali <terms>Masharti</terms> na <privacy>Taarifa ya Faragha</privacy>",
+      "submit": "Fungua akaunti",
+      "haveAccount": "Tayari una akaunti?",
+      "loginLink": "Ingia",
+      "securityNote": "Tunauliza tu kinachohitajika kuendesha akaunti yako.",
+      "errors": {
+        "name": "Weka jina lako kamili.",
+        "email": "Weka barua pepe sahihi.",
+        "phone": "Weka namba ya simu sahihi, mfano 754 123 456.",
+        "password": "Tumia angalau herufi 8.",
+        "terms": "Unahitaji kukubali masharti ili kuendelea."
+      }
+    },
+    "login": {
+      "title": "Karibu tena",
+      "subtitle": "Ingia kwa barua pepe au namba ya simu.",
+      "identifier": "Barua pepe au simu",
+      "password": "Nenosiri",
+      "submit": "Ingia",
+      "noAccount": "Mgeni TripPay?",
+      "signupLink": "Fungua akaunti",
+      "errors": {
+        "identifier": "Weka barua pepe au namba ya simu.",
+        "password": "Nenosiri lako lina angalau herufi 8."
+      }
+    },
+    "verify": {
+      "title": "Weka msimbo wa tarakimu 6",
+      "subtitle": "Tumetuma msimbo kwenye simu yako. Unaisha baada ya dakika 10.",
+      "digitAria": "Tarakimu {position} kati ya 6",
+      "checking": "Tunakagua msimbo…",
+      "invalid": "Msimbo huo haukulingana. Tafadhali jaribu tena.",
+      "pinNotice": "Skrini hii ndiyo mahali pekee TripPay inauliza msimbo. Kamwe hatuombi PIN wala misimbo kwa gumzo, simu au barua pepe.",
+      "resend": "Tuma msimbo tena"
+    },
+    "setup": {
+      "title": "Weka mapendeleo yako",
+      "subtitle": "Unaweza kuyabadilisha wakati wowote kwenye wasifu wako.",
+      "displayCurrency": "Sarafu ya kuonyesha",
+      "currencyHint": "Salio hubaki katika sarafu yake; hii inaweka jinsi muhtasari unavyoonekana.",
+      "notifyPayments": "Masasisho ya malipo",
+      "notifyRates": "Arifa za viwango vya fedha",
+      "essentialNote": "Jumbe muhimu za usalama na huduma hutumwa kila mara.",
+      "finish": "Nenda kwenye pochi yangu"
+    },
+    "verification": {
+      "title": "Tunakagua taarifa zako",
+      "steps": {
+        "contact": "Simu na barua pepe zimethibitishwa",
+        "identity": "Ukaguzi wa utambulisho",
+        "identityHint": "Kwa kawaida huchukua chini ya saa 24. Tutakujulisha kwa SMS na barua pepe.",
+        "ready": "Akaunti iko tayari",
+        "notStarted": "Haijaanza"
+      },
+      "while": {
+        "title": "Unaposubiri, unaweza",
+        "browse": "Kuvinjari biashara na vivutio",
+        "savings": "Kuweka lengo la akiba ya safari",
+        "rates": "Kuangalia viwango vya kubadilisha fedha",
+        "cta": "Chunguza TripPay"
+      },
+      "locked": {
+        "title": "Hufunguliwa baada ya idhini",
+        "payments": "Kufanya malipo",
+        "funding": "Kuweka pesa kwenye pochi yako"
+      },
+      "needsInfo": {
+        "title": "Tunahitaji hati moja zaidi",
+        "body": "Picha ya pasipoti yako haikuwa wazi. Tafadhali pakia picha iliyo wazi ya ukurasa wenye picha yako.",
+        "questions": "Maswali?",
+        "contact": "Wasiliana na msaada",
+        "caseRef": "Kumbukumbu ya kesi",
+        "upload": "Pakia hati",
+        "uploadedToast": "Hati imepokelewa. Asante.",
+        "uploaded": "Hati imepokelewa — tunaikagua na tutakujulisha kwa SMS na barua pepe."
+      }
+    }
+  },
+  "home": {
+    "greeting": "Karibu, {name}",
+    "quickActions": "Vitendo vya haraka",
+    "actions": {
+      "pay": "Lipa",
+      "savings": "Akiba",
+      "rates": "Viwango",
+      "transfer": "Tuma"
+    },
+    "requestsTitle": "Maombi yanayokusubiri",
+    "payNow": "Lipa sasa",
+    "recentTitle": "Miamala ya hivi karibuni",
+    "viewAll": "Ona yote",
+    "otherBalances": "Salio nyingine"
+  },
+  "wallet": {
+    "title": "Pochi",
+    "available": "Zilizopo",
+    "pending": "Zinasubiri",
+    "held": "Zimezuiliwa",
+    "updated": "Imesasishwa {time}",
+    "pendingNotSpendable": "Pesa zinazosubiri hazitumiki mpaka zithibitishwe.",
+    "addFunds": "Ongeza pesa",
+    "addFundsExplainer": "Jaza pochi yako ya TripPay kutoka njia ya malipo inayotambulika.",
+    "addFundsMockNote": "Mfano huu hauhamishi pesa halisi. Kwenye programu halisi ungeidhinisha ujazaji kwenye kidokezo cha mtoa huduma wako.",
+    "activityTitle": "Miamala",
+    "emptyTitle": "Hakuna miamala bado",
+    "emptyBody": "Malipo na ujazaji wako utaonekana hapa pamoja na risiti zake."
+  },
+  "pay": {
+    "title": "Lipa",
+    "subtitle": "Taarifa → Hakiki → Imekamilika. Hakuna kinachotumwa mpaka uthibitishe.",
+    "whoTitle": "Unamlipa nani?",
+    "recipientLabel": "Simu, kitambulisho cha TripPay au msimbo wa biashara",
+    "recipientHint": "Jaribu TP-BIZ-20418 (Kilimanjaro Trails Ltd) au TP-BIZ-11205.",
+    "lookingUp": "Tunatafuta mpokeaji…",
+    "notFound": "Hakuna mpokeaji aliyethibitishwa anayelingana na msimbo huo. Ukague na ujaribu tena.",
+    "verifiedBusiness": "Biashara iliyothibitishwa",
+    "unverifiedBusiness": "Haijathibitishwa — hakiki vizuri kabla ya kulipa",
+    "amount": "Kiasi",
+    "invalidAmount": "Weka kiasi sahihi kwa sarafu hii.",
+    "availableNote": "Zilizopo: {available} · Zinazosubiri {pending} hazijajumuishwa",
+    "method": "Njia ya malipo",
+    "methods": {
+      "mobile_money": "Pesa za simu",
+      "card": "Kadi",
+      "bank_transfer": "Uhamisho wa benki"
+    },
+    "continue": "Endelea",
+    "paying": "Unalipa",
+    "fromWallet": "kutoka pochi ya {currency}",
+    "fee": "Ada",
+    "feeWithPct": "Ada ya TripPay ({pct}%)",
+    "total": "Jumla",
+    "irreversibleNotice": "Malipo kwa biashara zilizothibitishwa hayawezi kurejeshwa baada ya kuthibitishwa.",
+    "confirmAndPay": "Thibitisha na ulipe",
+    "editDetails": "Hariri taarifa",
+    "paidTo": "yamelipwa kwa {merchant}",
+    "pendingNotice": "Tunasubiri uthibitisho wa mtoa huduma. Usilipe tena — tutakujulisha.",
+    "failedNotice": "Malipo hayakufanikiwa. Hakuna pesa iliyotoka kwenye pochi yako.",
+    "reference": "Kumbukumbu",
+    "date": "Tarehe",
+    "newAvailable": "Salio jipya",
+    "viewReceipt": "Ona risiti",
+    "backToWallet": "Rudi kwenye pochi",
+    "tryAgain": "Jaribu tena",
+    "qrAria": "Msimbo wa QR wa malipo wa {label}",
+    "steps": {
+      "details": "Taarifa",
+      "review": "Hakiki",
+      "done": "Imekamilika",
+      "aria": "Hatua {current} kati ya {total}"
+    }
+  },
+  "transactions": {
+    "title": "Miamala",
+    "searchPlaceholder": "Tafuta kwa kumbukumbu, mfanyabiashara au buking",
+    "filters": {
+      "all": "Yote",
+      "successful": "Yaliyofanikiwa",
+      "pending": "Yanayosubiri",
+      "failed": "Yaliyoshindikana"
+    },
+    "emptyTitle": "Hakuna chochote bado",
+    "emptyBody": "Miamala inayolingana na kichujio chako itaonekana hapa.",
+    "back": "Rudi kwenye miamala",
+    "notFoundTitle": "Muamala haukupatikana",
+    "notFoundBody": "Kumbukumbu hii hailingani na muamala wowote kwenye akaunti yako.",
+    "unknownParty": "Haijulikani",
+    "reference": "Kumbukumbu",
+    "bookingRef": "Buking",
+    "method": "Njia",
+    "methods": {
+      "mobile_money": "Pesa za simu",
+      "card": "Kadi",
+      "bank_transfer": "Uhamisho wa benki"
+    },
+    "providerRef": "Kumbukumbu ya mtoa huduma",
+    "date": "Tarehe",
+    "timeline": "Ratiba ya hali",
+    "reportIssue": "Ripoti tatizo la malipo haya",
+    "table": {
+      "party": "Mpokeaji / mtumaji",
+      "date": "Tarehe",
+      "reference": "Kumbukumbu",
+      "status": "Hali",
+      "amount": "Kiasi",
+      "sortByDate": "Panga kwa tarehe"
+    },
+    "detailTitle": "Taarifa za muamala"
+  },
+  "savings": {
+    "title": "Akiba ya safari",
+    "subtitle": "Zana ya kupanga — pesa hazifungwi wala kuhakikishwa.",
+    "byDate": "ifikapo {date}",
+    "ofTarget": "kati ya",
+    "pctSaved": "{pct}% zimewekwa",
+    "suggested": "Pendekezo la kila mwezi:",
+    "progressAria": "Asilimia {pct} ya lengo imewekwa",
+    "pause": "Simamisha",
+    "resume": "Endeleza",
+    "financingTeaser": "Umepita 50% — ona ufadhili",
+    "emptyTitle": "Hakuna malengo bado",
+    "emptyBody": "Unda lengo la safari yako ya wanyamapori, ndege au wiki ya ufukweni na ufuatilie maendeleo.",
+    "financing": {
+      "title": "Ufadhili wa safari",
+      "body": "Kufikia 50% ya lengo kunaweza kukufanya ustahili tathmini na mshirika mkopeshaji mwenye leseni — si ahadi ya mkopo kamwe."
+    },
+    "planningDisclaimer": "Malengo ya akiba ni zana ya kupanga. Hayafungi, hayalindi wala kuhakikisha fedha.",
+    "form": {
+      "newGoal": "Lengo jipya",
+      "title": "Unda lengo la akiba",
+      "subtitle": "Ipe safari jina, lengo na tarehe.",
+      "name": "Jina la lengo",
+      "namePlaceholder": "Safari ya Serengeti",
+      "target": "Kiasi cha lengo",
+      "targetDate": "Tarehe ya lengo",
+      "submit": "Unda lengo",
+      "planningNote": "Lengo ni mpango, si amana iliyofungwa.",
+      "errors": {
+        "name": "Lipe lengo jina.",
+        "amount": "Weka kiasi sahihi cha lengo.",
+        "targetDate": "Chagua tarehe ya lengo."
+      },
+      "created": "Lengo limeundwa."
+    },
+    "paused": "Lengo limesitishwa.",
+    "resumed": "Lengo limeanza tena."
+  },
+  "rates": {
+    "title": "Ufuatiliaji wa sarafu",
+    "subtitle": "Viwango vya makadirio kwa kupanga — si ofa ya ubadilishaji iliyohakikishwa.",
+    "indicative": "Makadirio",
+    "guaranteed": "Imehakikishwa",
+    "sourceNote": "Chanzo: mlisho wa soko wa makadirio. Viwango husasishwa mara kwa mara na vinaweza kubadilika wakati wowote.",
+    "alertsTitle": "Arifa zako",
+    "alertRow": "{pair} {direction} {rate}",
+    "direction": {
+      "above": "juu ya",
+      "below": "chini ya"
+    },
+    "alertActive": "Inaendelea",
+    "alertPaused": "Imesimamishwa",
+    "alertsNote": "Arifa ni za taarifa tu na zinaweza kuchelewa kuliko soko.",
+    "exchange": {
+      "title": "Ubadilishaji wa fedha",
+      "body": "Kubadilisha fedha ndani ya TripPay kunahitaji idhini ya kisheria na mshirika mwenye leseni. Hadi hapo, viwango ni vya kuangalia tu."
+    },
+    "chartTitle": "Mwenendo wa siku 30",
+    "chartAria": "Chati ya mstari ya kiwango cha {pair} kwa siku 30 zilizopita"
+  },
+  "transfer": {
+    "title": "Tuma kwa rafiki",
+    "explainer": "Uhamisho kati ya watumiaji wa TripPay ungesaidia kugawana gharama za safari au kutuma pesa bila fedha taslimu.",
+    "point1": "Daima ungeona jina lililothibitishwa la mpokeaji kabla ya kuthibitisha.",
+    "point2": "Vikomo, ufuatiliaji wa ulaghai na sera wazi ya kughairi vinakuja kwanza.",
+    "gateNote": "Huduma hii inahitaji idhini ya kisheria na haipatikani bado. Inaonyeshwa ili ujue kinachokuja."
+  },
+  "financing": {
+    "title": "Ufadhili wa safari",
+    "explainer": "Huduma inayowezekana ya baadaye inayounganisha wasafiri wanaostahili na mshirika mkopeshaji mwenye leseni kwa gharama za safari.",
+    "howTitle": "Ingefanyaje kazi",
+    "step1": "Weka akiba kuelekea lengo la safari — kufikia 50% kunaweza kuanzisha tathmini ya ustahili.",
+    "step2": "Mshirika mwenye leseni hukagua uwezo wa kulipa na kueleza ada, riba na marejesho kabla hujajitolea.",
+    "step3": "Unaona jumla ya marejesho na kila tarehe kabla ya kukubali chochote.",
+    "eligibilityNote": "Kufikia 50% ya lengo la akiba ni kianzio tu kinachowezekana cha tathmini — kamwe si ahadi wala idhini ya moja kwa moja ya mkopo.",
+    "gateNote": "Inahitaji mkopeshaji mwenye leseni, ukaguzi wa ukopeshaji wenye uwajibikaji na idhini ya uzingatiaji. Haipatikani kwenye mfano huu.",
+    "startSaving": "Anza na lengo la akiba"
+  },
+  "assistant": {
+    "title": "Msaidizi wa TripPay",
+    "subtitle": "Majibu ya haraka kuhusu jinsi TripPay inavyofanya kazi.",
+    "welcome": "Habari! Niulize kuhusu malipo, ada, hali za 'inasubiri' au marejesho. Siwezi kuona salio wala miamala yako — kwa jambo lolote la akaunti yako, nitakuelekeza kwa mtu halisi.",
+    "inputPlaceholder": "Uliza kuhusu ada, malipo yanayosubiri…",
+    "send": "Tuma",
+    "boundaryNote": "Msaidizi kamwe habuni salio, matokeo ya malipo wala viwango. Maswali ya akaunti huenda kwa msaada wa watu.",
+    "escalate": "Zungumza na mtu badala yake",
+    "answers": {
+      "pending": "'Inasubiri' inamaanisha tunasubiri mtoa huduma athibitishe. Usilipe tena — hali inasasishwa yenyewe na utapata arifa.",
+      "fees": "Kila ada inaonyeshwa kwenye skrini ya kuhakiki kabla hujathibitisha, na tena kwenye risiti. Ada ya kawaida ya TripPay kwenye mfano huu ni 1% kwa kila malipo.",
+      "refunds": "Marejesho hurudi kwenye pochi yako na kumbukumbu yake. Ikiwa malipo yalishindikana, hakuna kilichotoka kwenye pochi yako.",
+      "pin": "TripPay kamwe haiombi PIN yako wala misimbo ya mara moja — si kwa gumzo, si kwa simu. Unaidhinisha malipo kwenye kidokezo cha mtoa huduma wako tu.",
+      "fallback": "Naweza kusaidia kuhusu jinsi malipo, ada, akiba na hali zinavyofanya kazi. Kwa akaunti au muamala wako mahususi, tafadhali fungua kesi ya msaada — mtu halisi ataichukua na namba ya kesi."
+    }
+  },
+  "notifications": {
+    "title": "Arifa",
+    "unread": "Haijasomwa",
+    "emptyTitle": "Uko sawa kabisa",
+    "emptyBody": "Masasisho ya malipo, arifa za usalama na hatua za akiba zitaonekana hapa.",
+    "items": {
+      "paymentSuccessTitle": "Malipo yamefanikiwa",
+      "paymentSuccessBody": "{amount} kwa {merchant} yamekamilika. Risiti iko tayari.",
+      "paymentPendingTitle": "Malipo yanasubiri",
+      "paymentPendingBody": "{amount} kwa {merchant} yanasubiri uthibitisho wa mtoa huduma. Usilipe tena.",
+      "savingsMilestoneTitle": "Hatua ya akiba",
+      "savingsMilestoneBody": "\"{goal}\" imefikia {pct}% ya lengo lake. Endelea!",
+      "newSignInTitle": "Kuingia kupya",
+      "newSignInBody": "Akaunti yako ilifikiwa kutoka {device}. Kama si wewe, wasiliana na msaada."
+    }
+  },
+  "support": {
+    "title": "Msaada",
+    "subtitle": "Mtu halisi huchukua kila kesi na kujibu na namba ya kumbukumbu.",
+    "pinNotice": "Wafanyakazi wa msaada kamwe hawataomba PIN, nenosiri wala misimbo ya mara moja.",
+    "newCaseTitle": "Fungua kesi mpya",
+    "subject": "Kichwa",
+    "details": "Nini kimetokea?",
+    "submit": "Wasilisha kesi",
+    "created": "Kesi {id} imeundwa. Tutakusasisha kwenye arifa.",
+    "casesTitle": "Kesi zako",
+    "emptyTitle": "Hakuna kesi",
+    "emptyBody": "Ukifungua kesi ya msaada itaonekana hapa na hali yake.",
+    "errors": {
+      "subject": "Ipe kesi kichwa kifupi.",
+      "details": "Eleza kilichotokea (angalau herufi 10)."
+    }
+  },
+  "profile": {
+    "title": "Wasifu",
+    "settingsNav": "Mipangilio ya wasifu",
+    "links": {
+      "security": "Usalama",
+      "language": "Lugha",
+      "legal": "Sheria na faragha",
+      "support": "Msaada"
+    },
+    "logout": "Toka",
+    "closeAccount": "Funga akaunti",
+    "closeAccountExplainer": "Kufunga akaunti yako kunasitisha huduma zote. Salio lolote lililobaki lingerejeshwa kupitia njia inayotambulika baada ya uthibitishaji.",
+    "closeAccountMockNote": "Kufunga akaunti hakujawekwa kwenye mfano huu."
+  },
+  "bizOnboarding": {
+    "title": "Usajili wa biashara",
+    "subtitle": "Hatua tatu kuanza kupokea malipo.",
+    "steps": {
+      "register": {
+        "title": "Sajili biashara yako",
+        "body": "Jina la kisheria, aina na mahali — vikioanishwa na rejista ya biashara."
+      },
+      "verify": {
+        "title": "Thibitisha taasisi",
+        "body": "Ukaguzi wa leseni na umiliki huweka soko kuwa la kuaminika."
+      },
+      "team": {
+        "title": "Alika timu yako",
+        "body": "Majukumu ya wamiliki, fedha na wafanyakazi kila moja linaona kinachohitajika."
+      }
+    },
+    "goToDashboard": "Nenda kwenye dashibodi"
+  },
+  "bizDashboard": {
+    "title": "Dashibodi",
+    "subtitle": "Siku 14 zilizopita · Africa/Dar_es_Salaam (EAT) · viasi vya jumla kwa TZS",
+    "tiles": {
+      "revenue": "Mapato (jumla)",
+      "count": "Malipo",
+      "successRate": "Kiwango cha mafanikio",
+      "pendingSettlement": "Usuluhishi unaosubiri"
+    },
+    "tilesHint": {
+      "revenue": "Malipo yaliyofanikiwa, kabla ya ada",
+      "count": "Majaribio yote katika kipindi",
+      "successRate": "Yaliyofanikiwa ÷ yaliyokamilika",
+      "pendingSettlement": "Halisi, inasubiri kulipwa"
+    },
+    "chartTitle": "Kiasi cha malipo (TZS), siku 14 zilizopita",
+    "chartAria": "Chati ya mstari ya kiasi cha malipo ya kila siku kwa shilingi za Tanzania katika siku 14 zilizopita",
+    "volume": "Kiasi",
+    "dataNote": "Jumla za kila siku, saa za EAT, kabla ya ada; marejesho hayajajumuishwa.",
+    "recentTitle": "Malipo ya hivi karibuni",
+    "viewAll": "Ona yote"
+  },
+  "bizRequests": {
+    "title": "Maombi ya malipo",
+    "subtitle": "Tengeneza ombi, shiriki kiungo au QR, na ufuatilie kilicholipwa.",
+    "noPermission": "Jukumu lako haliwezi kutengeneza maombi ya malipo. Muulize mmiliki au mwenzako wa fedha.",
+    "emptyTitle": "Hakuna maombi bado",
+    "emptyBody": "Maombi utakayotengeneza yataonekana hapa na hali zake.",
+    "form": {
+      "title": "Ombi jipya la malipo",
+      "bookingRef": "Kumbukumbu ya buking",
+      "customerName": "Jina la mteja",
+      "customerContact": "Barua pepe au simu ya mteja",
+      "optional": "(hiari)",
+      "amount": "Kiasi",
+      "expiry": "Muda wa kuisha",
+      "expiryOptions": {
+        "h1": "Saa 1",
+        "h6": "Saa 6",
+        "h24": "Saa 24 (chaguo-msingi)",
+        "h72": "Saa 72"
+      },
+      "description": "Maelezo",
+      "descriptionPlaceholder": "Safari ya Ngorongoro ya siku 3",
+      "feePayer": "Nani analipa ada",
+      "feePayers": {
+        "customer": "Mteja",
+        "business": "Biashara yangu"
+      },
+      "feeLineCustomer": "Mteja analipa {amount} + ada {fee} = {total}",
+      "feeLineBusiness": "Mteja analipa {amount}; unapokea {net} baada ya ada {fee}",
+      "quoting": "Tunapata nukuu ya ada…",
+      "submit": "Tengeneza ombi",
+      "createdToast": "Ombi {ref} limetengenezwa",
+      "errors": {
+        "bookingRef": "Weka kumbukumbu ya buking.",
+        "customerName": "Weka jina la mteja.",
+        "amount": "Weka kiasi sahihi.",
+        "description": "Eleza ombi hili ni la nini."
+      }
+    },
+    "preview": {
+      "title": "Onyesho la moja kwa moja",
+      "scanToPay": "Skani ulipe",
+      "booking": "Buking {ref}",
+      "noBooking": "Kumbukumbu ya buking itaonekana hapa",
+      "expiresAfter": "Linaisha {duration} baada ya kutengenezwa",
+      "expiresIn": "Linaisha baada ya {time}",
+      "copyLink": "Nakili kiungo cha malipo",
+      "copied": "Kiungo cha malipo kimenakiliwa",
+      "copyFailed": "Imeshindikana kunakili — kivinjari chako kimezuia ubao wa kunakili.",
+      "downloadQr": "Pakua QR",
+      "send": "Tuma kwa mteja",
+      "sent": "Kiungo cha malipo kimetumwa kwa {contact}",
+      "needContact": "Ongeza barua pepe au simu ya mteja ili kutuma kiungo moja kwa moja.",
+      "createFirst": "Tengeneza ombi ili kuwezesha kiungo, QR na kutuma.",
+      "liveNote": "Ombi hili liko hewani — mteja anaona hivi hivi."
+    },
+    "recent": {
+      "title": "Maombi ya hivi karibuni",
+      "bookingRef": "Kumb. ya buking",
+      "customer": "Mteja",
+      "description": "Maelezo",
+      "amount": "Kiasi",
+      "status": "Hali",
+      "created": "Lilitengenezwa",
+      "walkIn": "Mteja wa papo hapo"
+    }
+  },
+  "bizTransactions": {
+    "title": "Miamala",
+    "subtitle": "Malipo ya wateja yanayoingia pamoja na ada na kumbukumbu za buking.",
+    "columns": {
+      "reference": "Kumbukumbu",
+      "booking": "Buking",
+      "date": "Tarehe (EAT)",
+      "amount": "Kiasi",
+      "fee": "Ada",
+      "status": "Hali"
+    },
+    "emptyTitle": "Hakuna miamala",
+    "emptyBody": "Malipo ya wateja yataonekana hapa yanapotokea."
+  },
+  "bizSuppliers": {
+    "title": "Wasambazaji",
+    "subtitle": "Lipa waongoza watalii, madereva na loji — na idhini zilizojengwa ndani.",
+    "addSupplier": "Ongeza msambazaji",
+    "addSupplierExplainer": "Wasambazaji wapya huthibitishwa kabla ya kulipwa.",
+    "addSupplierMockNote": "Katika mfano huu, usajili wa wasambazaji bado haujaunganishwa. Wasambazaji wa majaribio waliothibitishwa wametolewa.",
+    "tabs": {
+      "directory": "Orodha",
+      "queue": "Foleni ya idhini"
+    },
+    "table": {
+      "supplier": "Msambazaji",
+      "type": "Aina",
+      "status": "Hali",
+      "method": "Njia ya malipo",
+      "lastPaid": "Alilipwa mwisho",
+      "pay": "Lipa",
+      "actions": "Vitendo"
+    },
+    "methods": {
+      "mobile_money": "Pesa za simu",
+      "bank": "Benki"
+    },
+    "methodMasked": "{method} ·· {last3}",
+    "emptyTitle": "Hakuna wasambazaji bado",
+    "emptyBody": "Ongeza waongoza watalii, madereva na loji unaowalipa mara kwa mara.",
+    "payoutsTitle": "Historia ya malipo",
+    "queue": {
+      "emptyTitle": "Hakuna kinachosubiri idhini",
+      "emptyBody": "Malipo yaliyowasilishwa huonekana hapa hadi yakubaliwe au yakataliwe.",
+      "meta": "Limeombwa na {name} · {date} · Kumb. {ref}",
+      "needsSecond": "Linahitaji mthibitishaji wa 2",
+      "approve": "Idhinisha",
+      "reject": "Kataa",
+      "reasonLabel": "Sababu ya kukataa",
+      "reasonRequired": "(lazima)",
+      "reasonError": "Ongeza sababu ili mwombaji ajue cha kurekebisha",
+      "cancel": "Ghairi",
+      "confirmReject": "Thibitisha kukataa",
+      "approvedToast": "Malipo kwa {name} yameidhinishwa",
+      "rejectedToast": "Malipo kwa {name} yamekataliwa"
+    },
+    "payout": {
+      "title": "Lipa msambazaji",
+      "supplier": "Msambazaji",
+      "supplierPlaceholder": "Chagua msambazaji",
+      "verifiedLine": "Amethibitishwa · {method} ·· {last3}",
+      "amount": "Kiasi",
+      "reference": "Kumbukumbu / maelezo",
+      "referencePlaceholder": "Ada ya mwongozaji · KT-2026-0412",
+      "quoting": "Tunapata nukuu ya ada…",
+      "amountLabel": "Kiasi",
+      "feeLabel": "Ada ya malipo",
+      "totalFromWallet": "Jumla kutoka pochi",
+      "thresholdNote": "Malipo zaidi ya USD 1,000.00 yanahitaji mthibitishaji wa pili.",
+      "submitApproval": "Wasilisha kwa idhini",
+      "confirm": "Wasilisha malipo",
+      "sentForApproval": "Yamewasilishwa. Malipo haya yanahitaji mthibitishaji wa pili kabla ya kulipwa.",
+      "sentToQueue": "Yamewasilishwa kwenye foleni ya idhini. Utayaona chini ya Foleni ya idhini.",
+      "done": "Imekamilika",
+      "quoteFailed": "Imeshindikana kupata bei ya malipo haya. Tafadhali jaribu tena.",
+      "invalidAmount": "Weka kiasi sahihi."
+    }
+  },
+  "bizSettlements": {
+    "title": "Usuluhishi wa malipo",
+    "subtitle": "Wakati pesa zilizokusanywa zinapatikana kwa biashara yako.",
+    "gross": "Jumla",
+    "fees": "Ada",
+    "net": "Halisi",
+    "txCount": "miamala {count}",
+    "expected": "Inatarajiwa {time}",
+    "emptyTitle": "Hakuna usuluhishi",
+    "emptyBody": "Makundi ya usuluhishi yataonekana hapa malipo yanapokamilika.",
+    "definitionNote": "Viasi ni kabla ya ada za mtoa huduma, kwa TZS, vikipangwa kwa siku za kalenda za EAT."
+  },
+  "bizReports": {
+    "title": "Ripoti na usuluhishi",
+    "subtitle": "Linganisha malipo na buking na uhamishe kwa mhasibu wako.",
+    "exportCsv": "Hamisha CSV",
+    "exportPdf": "Hamisha PDF",
+    "filters": {
+      "dateRange": "Kipindi",
+      "timezone": "Saa za eneo",
+      "currency": "Sarafu",
+      "status": "Hali",
+      "method": "Njia",
+      "ranges": {
+        "d7": "Siku 7 zilizopita",
+        "d30": "Siku 30 zilizopita",
+        "d90": "Siku 90 zilizopita"
+      },
+      "tzEat": "EAT (UTC+3)",
+      "currencyUsd": "USD (imebadilishwa)",
+      "statuses": {
+        "all": "Hali zote",
+        "settled": "Imetatuliwa",
+        "pending": "Inasubiri",
+        "refunded": "Imerejeshwa"
+      },
+      "methods": {
+        "all": "Njia zote",
+        "mobile_money": "Pesa za simu",
+        "card": "Kadi",
+        "bank": "Uhamisho wa benki"
+      }
+    },
+    "tiles": {
+      "gross": "Jumla ghafi",
+      "refunds": "Marejesho",
+      "fees": "Ada",
+      "net": "Halisi",
+      "settled": "Imetatuliwa",
+      "pending": "Inasubiri"
+    },
+    "table": {
+      "title": "Miamala iliyolinganishwa na buking",
+      "unmatchedCount": "{count} hazijalinganishwa",
+      "reference": "Kumbukumbu",
+      "bookingRef": "Kumb. ya buking",
+      "customer": "Mteja",
+      "gross": "Ghafi",
+      "fee": "Ada",
+      "status": "Hali",
+      "match": "Ulinganifu",
+      "matched": "Imelinganishwa",
+      "unmatched": "Haijalinganishwa",
+      "walkIn": "Mteja wa papo hapo",
+      "actions": "Vitendo"
+    },
+    "matchDialog": {
+      "action": "Linganisha na buking",
+      "title": "Linganisha na buking",
+      "body": "Unganisha muamala {reference} na kumbukumbu ya buking.",
+      "bookingRef": "Kumbukumbu ya buking",
+      "error": "Tumia muundo wa buking, mfano KT-2026-0405.",
+      "submit": "Linganisha muamala",
+      "success": "{reference} imelinganishwa na {ref}"
+    },
+    "definitions": {
+      "title": "Jinsi tarakimu hizi zinavyofafanuliwa",
+      "period": {
+        "title": "Kipindi na saa",
+        "body": "00:00–23:59 EAT (UTC+3) kwa kila siku katika kipindi."
+      },
+      "grossNet": {
+        "title": "Ghafi dhidi ya halisi",
+        "body": "Ghafi ni malipo yaliyofanikiwa kabla ya ada. Halisi = ghafi − marejesho − ada."
+      },
+      "refunds": {
+        "title": "Marejesho",
+        "body": "Yanahesabiwa siku yaliyotolewa, si siku ya malipo ya awali."
+      },
+      "currency": {
+        "title": "Sarafu",
+        "body": "Kiasi kisicho cha USD hubadilishwa kwa kiwango elekezi cha siku ya malipo."
+      }
+    }
+  },
+  "bizTeam": {
+    "title": "Timu",
+    "subtitle": "Ufikiaji kwa majukumu kwa wafanyakazi wako.",
+    "invite": "Alika mwanachama",
+    "lastActive": "alikuwepo {time}",
+    "roles": {
+      "biz_owner": "Mmiliki",
+      "biz_finance": "Fedha",
+      "biz_staff": "Mfanyakazi",
+      "traveller": "Msafiri",
+      "admin_support": "Msaada",
+      "admin_risk": "Hatari",
+      "admin_super": "Msimamizi mkuu"
+    },
+    "rolesNote": "Wamiliki wanasimamia kila kitu; fedha wanaweza kuunda malipo na kupakua ripoti; wafanyakazi wanaweza kuunda maombi ya malipo.",
+    "emptyTitle": "Ni wewe tu kwa sasa",
+    "emptyBody": "Alika wenzako na umpe kila mmoja jukumu."
+  },
+  "bizSettings": {
+    "title": "Mipangilio",
+    "subtitle": "Wasifu wa biashara yako na mapendeleo ya malipo.",
+    "profileTitle": "Wasifu wa biashara",
+    "name": "Jina la biashara",
+    "category": "Aina",
+    "code": "Msimbo wa biashara wa TripPay",
+    "verification": "Uthibitishaji",
+    "editNote": "Taarifa zilizothibitishwa zinaweza kubadilishwa tu kupitia kesi ya msaada, kuwalinda wateja wako.",
+    "payoutTitle": "Usuluhishi na malipo",
+    "settlementMethod": "Njia ya usuluhishi",
+    "settlementMethodValue": "Pesa za simu · kila siku",
+    "requestChange": "Omba mabadiliko",
+    "payoutNote": "Mabadiliko ya usuluhishi yanahitaji uthibitishaji na huanza kutumika baada ya ukaguzi."
+  },
+  "bizSupport": {
+    "title": "Msaada",
+    "subtitle": "Matatizo ya malipo, uthibitishaji na msaada wa akaunti kwa biashara yako.",
+    "escalationTitle": "Kuna jambo la dharura?",
+    "escalationBody": "Ulaghai unaoshukiwa, malipo mara mbili au malipo yaliyokwama: fungua kesi na itapewa kipaumbele na namba ya kumbukumbu.",
+    "casesTitle": "Kesi zako",
+    "emptyTitle": "Hakuna kesi",
+    "emptyBody": "Kesi za msaada za biashara yako zitaonekana hapa."
+  },
+  "admin": {
+    "login": {
+      "title": "Kuingia kwa wafanyakazi",
+      "subtitle": "Uthibitishaji wa hatua nyingi unahitajika kwa wafanyakazi wote.",
+      "internalBadge": "Ya ndani",
+      "email": "Barua pepe ya kazi",
+      "password": "Nenosiri",
+      "otp": "Msimbo wa MFA",
+      "submit": "Ingia kwa usalama",
+      "accessNote": "Ufikiaji umewekewa mipaka ya majukumu na kila kitendo nyeti kinarekodiwa.",
+      "errors": {
+        "email": "Weka barua pepe yako ya kazi.",
+        "password": "Weka nenosiri lako.",
+        "otp": "Weka msimbo wa MFA wa tarakimu 6."
+      }
+    },
+    "overview": {
+      "title": "Muhtasari",
+      "tiles": {
+        "paymentsToday": "Malipo leo",
+        "successRate": "Kiwango cha mafanikio",
+        "failed": "Yameshindwa",
+        "pendingOver15": "Yanasubiri > dakika 15",
+        "openCases": "Kesi za msaada wazi",
+        "riskFlags": "Alama za hatari"
+      },
+      "health": {
+        "title": "Afya ya watoa huduma",
+        "webhookP95": "Webhook p95 {value}",
+        "noWebhooks": "Hakuna webhook",
+        "downSince": "Imezimika tangu {time}"
+      },
+      "recon": {
+        "title": "Usuluhishi",
+        "yesterday": "Jana:",
+        "matched": "{count} zimelinganishwa",
+        "differences": "tofauti {count}",
+        "needsReview": "Inahitaji ukaguzi",
+        "open": "Fungua usuluhishi"
+      },
+      "search": {
+        "title": "Utafutaji wa miamala",
+        "placeholder": "Tafuta kwa kumbukumbu, simu, jina au kumb. ya mtoa huduma…",
+        "emptyTitle": "Hakuna miamala iliyopatikana",
+        "emptyBody": "Jaribu kumbukumbu kama TP-9HD1-77QE au sehemu ya namba ya simu.",
+        "columns": {
+          "reference": "Kumbukumbu",
+          "user": "Mtumiaji",
+          "phone": "Simu",
+          "merchant": "Mfanyabiashara",
+          "amount": "Kiasi",
+          "provider": "Mtoa huduma",
+          "status": "Hali",
+          "created": "Ilianzishwa"
+        }
+      },
+      "detail": {
+        "user": "Mtumiaji",
+        "phone": "Simu",
+        "amount": "Kiasi",
+        "fee": "ada",
+        "providerRef": "Kumb. ya mtoa huduma",
+        "timeline": "Mfululizo",
+        "reveal": "Onyesha (imerekodiwa)",
+        "revealLogged": "Simu imeonyeshwa — imerekodiwa kwenye kumbukumbu ya ukaguzi.",
+        "refund": "Rejesha",
+        "reverse": "Geuza",
+        "flag": "Weka alama",
+        "reverseTitle": "Geuza {reference}",
+        "reverseBody": "Malipo yanarudishwa kamili na madaftari yote mawili yanasahihishwa.",
+        "flagTitle": "Weka alama {reference}",
+        "flagBody": "Inaweka alama muamala ili timu ya hatari iikague.",
+        "steps": {
+          "created": "Imeanzishwa",
+          "sent": "Imetumwa kwa mtoa huduma",
+          "awaiting": "Inasubiri webhook",
+          "completed": "Imekamilika",
+          "failed": "Imeshindwa"
+        }
+      },
+      "refund": {
+        "trigger": "Rejesha",
+        "title": "Rejesha {reference}",
+        "line": "Rejesha {amount} kwa {user} kupitia {provider}",
+        "reason": "Sababu (lazima)",
+        "reasonPlaceholder": "Chagua sababu",
+        "reasons": {
+          "timeout": "Mteja ametozwa lakini mtoa huduma alichelewa",
+          "duplicate": "Malipo ya mara mbili",
+          "customerRequest": "Ombi la mteja ndani ya sera",
+          "fraud": "Udanganyifu unaoshukiwa"
+        },
+        "notes": "Maelezo",
+        "notesPlaceholder": "Kesi CS-26-04212, mteja ametuma SMS ya mtoa huduma.",
+        "auditNote": "Kitendo hiki kinarekodiwa kwenye kumbukumbu ya ukaguzi.",
+        "cancel": "Ghairi",
+        "confirm": "Thibitisha kurejesha",
+        "success": "Rejesho la {reference} limewasilishwa na kurekodiwa."
+      },
+      "maskingNote": "Taarifa binafsi zimefichwa kwa chaguo-msingi kote kwenye mlango. Kufichua kunahitaji sababu na kunarekodiwa."
+    },
+    "verification": {
+      "title": "Foleni ya uthibitishaji",
+      "subtitle": "Ukaguzi wa utambulisho wa wasafiri na biashara unaosubiri.",
+      "types": {
+        "traveller": "Msafiri",
+        "business": "Biashara"
+      },
+      "submitted": "iliwasilishwa {time}",
+      "approve": "Idhinisha",
+      "approveTitle": "Idhinisha {name}",
+      "approveBody": "Hakikisha nyaraka zinalingana na rejista kabla ya kuidhinisha.",
+      "requestInfo": "Omba taarifa",
+      "moreInfoTitle": "Omba taarifa zaidi kutoka kwa {name}",
+      "moreInfoBody": "Mwombaji anaarifiwa na kesi inarudi kwenye foleni.",
+      "emptyTitle": "Foleni iko wazi",
+      "emptyBody": "Maombi mapya ya uthibitishaji yataonekana hapa."
+    },
+    "transactions": {
+      "title": "Utafutaji wa miamala",
+      "subtitle": "Tafuta kwa kumbukumbu, mfanyabiashara au kumbukumbu ya mtoa huduma. Utambulisho wa wateja unabaki umefichwa.",
+      "searchPlaceholder": "TP-8WQ3-55JR, mfanyabiashara, kumbukumbu ya mtoa huduma…",
+      "columns": {
+        "reference": "Kumbukumbu",
+        "merchant": "Mfanyabiashara",
+        "date": "Tarehe (EAT)",
+        "total": "Jumla",
+        "status": "Hali",
+        "actions": "Vitendo"
+      },
+      "refund": "Rejesha",
+      "refundTitle": "Rejesha {reference}",
+      "refundBody": "Kiasi kamili kinarudi kwenye pochi ya mteja na kumbukumbu mpya.",
+      "flag": "Weka alama",
+      "flagTitle": "Weka alama {reference} kwa ukaguzi wa hatari",
+      "flagBody": "Muamala unapelekwa kwenye foleni ya timu ya hatari.",
+      "emptyTitle": "Hakuna matokeo",
+      "emptyBody": "Hakuna muamala unaolingana na utafutaji huo."
+    },
+    "disputes": {
+      "title": "Marejesho na migogoro",
+      "subtitle": "Matatizo yaliyoripotiwa na wateja yanayosubiri utatuzi.",
+      "opened": "ulifunguliwa {time}",
+      "resolveRefund": "Tatua kwa marejesho",
+      "resolveRefundTitle": "Rejesha mgogoro {reference}",
+      "resolveRefundBody": "Kiasi kinachobishaniwa kinarejeshwa na kesi inafungwa kama imerejeshwa.",
+      "reject": "Kataa",
+      "rejectTitle": "Kataa mgogoro {reference}",
+      "rejectBody": "Mteja anaarifiwa na sababu unayotoa.",
+      "emptyTitle": "Hakuna migogoro wazi",
+      "emptyBody": "Migogoro mipya itaonekana hapa."
+    },
+    "providers": {
+      "title": "Afya ya watoa huduma",
+      "subtitle": "Njia za malipo, viwango vya mafanikio na mrundikano wa webhook.",
+      "successRate": "Kiwango cha mafanikio (saa 24)",
+      "pendingWebhooks": "Webhook zinazosubiri",
+      "lastIncident": "Tukio la mwisho",
+      "neutralNote": "Watoa huduma wanaonyeshwa kwa majina ya jumla kwenye mfano huu."
+    },
+    "reconciliation": {
+      "title": "Usuluhishi wa kila siku",
+      "subtitle": "Daftari la TripPay dhidi ya faili la malipo la mtoa huduma, kwa siku na njia.",
+      "filters": {
+        "date": "Tarehe",
+        "provider": "Mtoa huduma"
+      },
+      "upload": "Pakia faili la malipo",
+      "uploadToast": "{file} limepokelewa — mchakato wa usuluhishi umepangwa.",
+      "tiles": {
+        "ledger": "Jumla ya daftari la TripPay",
+        "entries": "Maingizo {count}",
+        "providerFile": "Jumla ya faili la mtoa huduma",
+        "lines": "Mistari {count}",
+        "difference": "Tofauti",
+        "balanced": "Imesawazishwa",
+        "balancedNote": "Daftari na faili la malipo vinakubaliana.",
+        "exceptionsToResolve": "Hitilafu {count} za kutatua"
+      },
+      "exceptions": {
+        "title": "Hitilafu",
+        "emptyTitle": "Hakuna hitilafu",
+        "emptyBody": "Siku hii ya mtoa huduma imesawazishwa — hakuna cha kutatua.",
+        "columns": {
+          "reference": "Kumbukumbu",
+          "ledgerAmount": "Kiasi cha daftari",
+          "providerAmount": "Kiasi cha mtoa huduma",
+          "statuses": "Hali: daftari dhidi ya mtoa huduma",
+          "type": "Aina ya hitilafu",
+          "assignee": "Aliyepangiwa",
+          "actions": "Vitendo"
+        },
+        "types": {
+          "missing_at_provider": "Haipo kwa mtoa huduma",
+          "amount_mismatch": "Kiasi hakilingani",
+          "status_mismatch": "Hali hazilingani",
+          "duplicate": "Nakala mbili"
+        },
+        "secondLine": "(mstari wa 2)",
+        "unassigned": "Hajapangiwa",
+        "resolve": "Tatua kwa ingizo la masahihisho",
+        "resolveTitle": "Ingizo la masahihisho kwa {reference}",
+        "resolveBody": "Ingizo la masahihisho hurekebisha daftari na kumbukumbu kamili ya ukaguzi — salio haliwahi kubadilishwa kimyakimya."
+      },
+      "runs": {
+        "title": "Historia ya michakato",
+        "columns": {
+          "run": "Mchakato",
+          "date": "Tarehe",
+          "provider": "Mtoa huduma",
+          "file": "Faili",
+          "result": "Matokeo",
+          "by": "Na"
+        },
+        "differences": "Tofauti {count}",
+        "balanced": "Imesawazishwa",
+        "auto": "Otomatiki"
+      },
+      "correctionNote": "Hitilafu hurekebishwa kwa maingizo ya masahihisho — salio haliwahi kubadilishwa kimyakimya."
+    },
+    "config": {
+      "title": "Ada na vikomo",
+      "subtitle": "Mipangilio ya uendeshaji. Kila badiliko linahitaji sababu na linarekodiwa.",
+      "rows": {
+        "feeMobileMoney": {
+          "label": "Ada ya malipo ya pesa za simu",
+          "value": "1.0%"
+        },
+        "feeCard": {
+          "label": "Ada ya malipo ya kadi",
+          "value": "2.5%"
+        },
+        "limitDaily": {
+          "label": "Kikomo cha siku cha msafiri",
+          "value": "TZS 5,000,000"
+        },
+        "limitDualApproval": {
+          "label": "Kiwango cha idhini-mbili cha malipo",
+          "value": "TZS 2,000,000"
+        }
+      },
+      "change": "Badilisha",
+      "changeTitle": "Badilisha: {label}",
+      "changeBody": "Thamani mpya inaanza kutumika baada ya msimamizi wa pili kuidhinisha.",
+      "noPermission": "Kuangalia tu",
+      "dualApprovalNote": "Mabadiliko ya mipangilio yenye hatari kubwa yanahitaji idhini mbili kabla ya kutumika."
+    },
+    "roles": {
+      "title": "Majukumu na ruhusa",
+      "subtitle": "Kila jukumu la mfanyakazi linaweza kufanya nini. Mabadiliko ni ya wasimamizi wakuu tu.",
+      "permission": "Ruhusa",
+      "roleNames": {
+        "admin_support": "Msaada",
+        "admin_risk": "Hatari",
+        "admin_super": "Msimamizi mkuu"
+      },
+      "permissions": {
+        "admin_transactions_search": "Kutafuta miamala",
+        "admin_verification_review": "Kukagua uthibitishaji",
+        "admin_disputes_resolve": "Kutatua migogoro",
+        "admin_refunds_issue": "Kutoa marejesho",
+        "admin_config_change": "Kubadilisha ada na vikomo",
+        "admin_roles_manage": "Kusimamia majukumu",
+        "admin_audit_read": "Kusoma kumbukumbu za ukaguzi"
+      },
+      "granted": "Ndiyo",
+      "notGranted": "Hapana",
+      "manageNote": "Mabadiliko ya majukumu yenyewe ni vitendo nyeti: sababu inahitajika, yanarekodiwa, na idhini mbili."
+    },
+    "auditLog": {
+      "title": "Kumbukumbu za ukaguzi",
+      "subtitle": "Kila kitendo nyeti, nani alikifanya, na kwa nini.",
+      "columns": {
+        "when": "Lini (EAT)",
+        "actor": "Mtendaji",
+        "action": "Kitendo",
+        "target": "Lengo",
+        "reason": "Sababu"
+      },
+      "retentionNote": "Maingizo ya ukaguzi hayabadiliki na huhifadhiwa kulingana na sera ya uhifadhi wa data."
+    },
+    "reasonDialog": {
+      "reasonLabel": "Sababu (inahitajika)",
+      "reasonPlaceholder": "Kwa nini unachukua hatua hii?",
+      "reasonTooShort": "Toa angalau herufi 10 ili kumbukumbu ya ukaguzi iwe na maana.",
+      "auditNotice": "Kitendo hiki kinarekodiwa na jina lako, muda na sababu hii.",
+      "confirm": "Thibitisha kitendo",
+      "logged": "Kitendo kimerekodiwa kwenye kumbukumbu za ukaguzi."
+    }
+  },
+  "meta": {
+    "description": "Imejengwa kwa kila mdau wa utalii – Safiri • Lipa • Gundua. Malipo ya safari na usimamizi wa pesa kwa watalii na biashara za utalii Tanzania."
+  }
+}

@@ -1,0 +1,1394 @@
+{
+  "common": {
+    "comingSoon": "Coming soon",
+    "copied": "Copied",
+    "copy": "Copy {value}",
+    "currency": "Currency",
+    "errorBody": "Something went wrong while loading. Your money is safe — please try again.",
+    "errorTitle": "We couldn't load this",
+    "language": "Language",
+    "retry": "Try again",
+    "skipToContent": "Skip to main content",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The page you're looking for doesn't exist or has moved.",
+    "goHome": "Back to the homepage",
+    "actionFailedTitle": "That didn't go through",
+    "actionFailedBody": "Your money is safe — nothing was changed. Please try again.",
+    "refreshFailed": "Couldn't refresh. Showing the last loaded data."
+  },
+  "status": {
+    "created": "Created",
+    "awaiting_authorisation": "Awaiting authorisation",
+    "pending": "Pending",
+    "successful": "Successful",
+    "failed": "Failed",
+    "expired": "Expired",
+    "reversed": "Reversed",
+    "refunded": "Refunded",
+    "under_review": "Under review",
+    "open": "Open",
+    "paid": "Paid",
+    "cancelled": "Cancelled",
+    "active": "Active",
+    "paused": "Paused",
+    "completed": "Completed",
+    "settled": "Settled",
+    "delayed": "Delayed",
+    "matched": "Matched",
+    "mismatch": "Mismatch",
+    "in_progress": "In progress",
+    "operational": "Operational",
+    "degraded": "Degraded",
+    "down": "Down",
+    "investigating": "Investigating",
+    "rejected": "Rejected",
+    "waiting": "Waiting on you",
+    "resolved": "Resolved",
+    "invited": "Invited",
+    "suspended": "Suspended",
+    "approved": "Approved",
+    "more_info": "More info needed",
+    "unverified": "Not verified",
+    "verified": "Verified"
+  },
+  "nav": {
+    "mainNav": "Main navigation",
+    "home": "Home",
+    "wallet": "Wallet",
+    "pay": "Pay",
+    "activity": "Activity",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "savings": "Savings",
+    "rates": "Rates",
+    "transfer": "Transfer",
+    "financing": "Financing",
+    "assistant": "Assistant",
+    "support": "Support",
+    "navLabel": "Traveller navigation"
+  },
+  "bizNav": {
+    "navLabel": "Business portal navigation",
+    "dashboard": "Dashboard",
+    "requests": "Payment requests",
+    "transactions": "Transactions",
+    "suppliers": "Suppliers",
+    "settlements": "Settlements",
+    "reports": "Reports",
+    "team": "Team",
+    "settings": "Settings",
+    "support": "Support",
+    "verified": "Verified",
+    "portalBadge": "Business"
+  },
+  "adminNav": {
+    "navLabel": "Admin portal navigation",
+    "overview": "Overview",
+    "verification": "Users & KYC",
+    "transactions": "Transactions",
+    "disputes": "Support cases",
+    "providers": "Providers",
+    "reconciliation": "Reconciliation",
+    "config": "Fees & limits",
+    "roles": "Roles",
+    "auditLog": "Audit log",
+    "portalBadge": "Admin",
+    "environment": "Production",
+    "roleLabels": {
+      "admin_support": "Support Agent",
+      "admin_risk": "Risk Analyst",
+      "admin_super": "Administrator"
+    }
+  },
+  "public": {
+    "navLabel": "Site navigation",
+    "tagline": "Built for Every Tourism Stakeholder – Travel • Pay • Explore",
+    "demoDisclaimer": "Prototype with mock data. No real payments are processed.",
+    "nav": {
+      "tourists": "For tourists",
+      "businesses": "For businesses",
+      "help": "Help",
+      "legal": "Legal & privacy",
+      "login": "Log in",
+      "howItWorks": "How it works",
+      "support": "Support"
+    },
+    "footer": {
+      "navLabel": "Legal and support",
+      "terms": "Terms",
+      "privacy": "Privacy Notice",
+      "fees": "Fees",
+      "complaints": "Complaints",
+      "contact": "Contact",
+      "copyright": "© 2026 TripPay. [Licensing and regulatory statement]"
+    }
+  },
+  "landing": {
+    "hero": {
+      "kicker": "Travel • Pay • Explore",
+      "title": "Travel smarter. Pay easier.",
+      "subtitle": "Plan, pay and track your travel money — built for tourists and the tourism businesses that serve them.",
+      "ctaPrimary": "Get started",
+      "ctaSecondary": "For businesses",
+      "phone": {
+        "greeting": "Habari, David",
+        "totalAvailable": "Total available",
+        "pending": "Pending",
+        "pay": "Pay"
+      },
+      "photoAlt": "Mount Kilimanjaro at sunset"
+    },
+    "tourists": {
+      "kicker": "For tourists",
+      "title": "Your trip money, sorted",
+      "wallet": {
+        "title": "Digital wallet",
+        "body": "Hold TZS, USD, EUR and GBP with available and pending shown separately."
+      },
+      "scanPay": {
+        "title": "Scan & Pay",
+        "body": "Scan a business QR, check the verified name, confirm and pay."
+      },
+      "savings": {
+        "title": "Trip Savings Planner",
+        "body": "Set a goal for your safari and see what to put aside each week."
+      },
+      "rates": {
+        "title": "Currency Monitor",
+        "body": "Follow USD, EUR and GBP against TZS and set rate alerts."
+      }
+    },
+    "businesses": {
+      "kicker": "For businesses",
+      "title": "Get paid, pay suppliers",
+      "wallet": {
+        "title": "Business wallet",
+        "body": "One balance for every booking, with settlements you can follow."
+      },
+      "requests": {
+        "title": "Payment requests & QR",
+        "body": "Send a link or QR tied to a booking reference."
+      },
+      "suppliers": {
+        "title": "Supplier payments",
+        "body": "Pay guides, drivers and lodges with approvals built in."
+      },
+      "reports": {
+        "title": "Reports",
+        "body": "Match payments to bookings and export for your accountant."
+      }
+    },
+    "how": {
+      "title": "How it works",
+      "steps": {
+        "account": {
+          "title": "Create your account",
+          "body": "Pick English or Kiswahili and sign up in minutes."
+        },
+        "verify": {
+          "title": "Verify your identity",
+          "body": "Usually reviewed in under 24 hours."
+        },
+        "fund": {
+          "title": "Add funds",
+          "body": "Top up by card, mobile money or bank transfer."
+        },
+        "pay": {
+          "title": "Pay and track",
+          "body": "Check the business, see the fee, confirm. Get a receipt."
+        }
+      }
+    },
+    "trust": {
+      "title": "Money you can trust",
+      "secure": {
+        "title": "Secure payments",
+        "body": "Encrypted end to end. We never ask for your PIN."
+      },
+      "fees": {
+        "title": "Clear fees",
+        "body": "See the fee and total before every payment."
+      },
+      "receipts": {
+        "title": "Receipts for every payment",
+        "body": "With a reference ID you can share or download."
+      },
+      "support": {
+        "title": "Human support",
+        "body": "Real people, in English and Kiswahili."
+      }
+    },
+    "partners": {
+      "title": "Planned payment partners",
+      "placeholder": "[Partner logo]"
+    },
+    "demo": {
+      "title": "Explore the prototype",
+      "subtitle": "All three portals run on realistic mock data. Jump straight in:",
+      "traveller": "Traveller app",
+      "business": "Business portal",
+      "admin": "Admin portal"
+    },
+    "cta": {
+      "title": "Ready to travel smarter?",
+      "body": "Open your free TripPay account before your trip and pay with confidence across Tanzania.",
+      "button": "Get started"
+    }
+  },
+  "tourists": {
+    "title": "Travel Tanzania with your money under control",
+    "subtitle": "From saving for the trip to the final receipt, TripPay keeps every payment clear, confirmed and recorded.",
+    "cta": "Get started",
+    "points": {
+      "balances": {
+        "title": "Know what you can spend",
+        "body": "Available and pending balances are separate, in every currency you hold."
+      },
+      "pay": {
+        "title": "Pay verified businesses",
+        "body": "See the verified name, amount, fee and total before anything is sent."
+      },
+      "receipts": {
+        "title": "Keep every receipt",
+        "body": "Each transaction has a reference, timeline and receipt you can share."
+      },
+      "savings": {
+        "title": "Save towards the trip",
+        "body": "Set a goal, watch progress, and get a suggested monthly contribution."
+      },
+      "rates": {
+        "title": "Watch exchange rates",
+        "body": "Track TZS pairs with clear quote times — rates are informational."
+      },
+      "help": {
+        "title": "Help that answers",
+        "body": "An assistant for quick questions, and a human support team with case references."
+      }
+    },
+    "heroAlt": "Herd of elephants on the Serengeti plains"
+  },
+  "businesses": {
+    "title": "Get paid, reconcile, and pay your suppliers",
+    "subtitle": "A dashboard built for tour operators, lodges, guides and vendors — every payment matched to its booking.",
+    "cta": "Register your business",
+    "points": {
+      "requests": {
+        "title": "Payment requests & QR",
+        "body": "Create requests tied to booking references; customers see your verified name."
+      },
+      "reconcile": {
+        "title": "Reconcile to bookings",
+        "body": "Each payment carries its reference, fee, status and booking details."
+      },
+      "suppliers": {
+        "title": "Pay suppliers",
+        "body": "Verified supplier payouts, with dual approval for larger amounts."
+      },
+      "settlements": {
+        "title": "Track settlements",
+        "body": "Gross, fees, net and expected timing for every settlement batch."
+      },
+      "reports": {
+        "title": "Export reports",
+        "body": "Download transactions with references, amounts, fees and statuses."
+      },
+      "team": {
+        "title": "Team roles",
+        "body": "Owners, finance and staff see exactly what their role allows."
+      }
+    },
+    "heroAlt": "Fishing and tourist boats on a Zanzibar beach"
+  },
+  "help": {
+    "title": "Help centre",
+    "subtitle": "Quick answers about payments, fees and your account.",
+    "pinNotice": "TripPay will never ask for your PIN or a one-time code outside the app's dedicated code screen. Report anyone who does.",
+    "faq": {
+      "pending": {
+        "q": "My payment says pending. Did it fail?",
+        "a": "No. Pending means we are waiting for the provider's confirmation. Don't pay again — we'll update the status and notify you."
+      },
+      "fees": {
+        "q": "When do I see the fee?",
+        "a": "Always before you confirm. The review screen shows the amount, the fee and the total, and nothing is sent until you confirm."
+      },
+      "refund": {
+        "q": "How do refunds work?",
+        "a": "If a payment fails after money left your wallet, or a merchant refunds you, the amount returns to your wallet with its own reference."
+      },
+      "verify": {
+        "q": "Why do I need to verify my account?",
+        "a": "Verification protects you and the businesses you pay. Some limits only lift after your identity is confirmed."
+      },
+      "pin": {
+        "q": "Will TripPay ever ask for my mobile-money PIN?",
+        "a": "Never. You authorise mobile-money payments on your provider's own prompt. TripPay staff will never ask for PINs or codes."
+      },
+      "contact": {
+        "q": "How do I reach a human?",
+        "a": "Open Support in the app and create a case. You'll get a case reference and updates in your notifications."
+      }
+    }
+  },
+  "legal": {
+    "title": "Legal & privacy",
+    "subtitle": "Plain-language summary for this prototype.",
+    "sections": {
+      "service": {
+        "title": "What TripPay is",
+        "body": "TripPay is a product concept for travel payments and money management. It is not a bank, lender, currency dealer or crypto exchange. Regulated services depend on licensed partners and approvals."
+      },
+      "fees": {
+        "title": "Fees",
+        "body": "Any fee is shown on the review screen before you confirm a payment, and again on the receipt. Fees come from the payment quote, never a surprise."
+      },
+      "data": {
+        "title": "Your data",
+        "body": "We collect only what the service needs, explain why, and limit who can see it. Admin staff see masked personal data by default and every sensitive action is audit-logged."
+      },
+      "gated": {
+        "title": "Features marked \"coming soon\"",
+        "body": "Travel financing, currency exchange execution, transfers between users and crypto features require separate legal and partner approval. They are shown for transparency but are not available."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Questions about this prototype or your data: open a support case in the app."
+      }
+    },
+    "credits": {
+      "title": "Photo credits",
+      "body": "Photos are used under their Creative Commons licences, with thanks to the photographers:"
+    }
+  },
+  "auth": {
+    "language": {
+      "utilityBar": "Tanzania bank-grade escrow network",
+      "utilityStep": "Step 1 of 4",
+      "help": "Need help?",
+      "panel": {
+        "tagline": "Tanzania travel payments",
+        "badge": "Onboarding · Step 1",
+        "welcome": "Welcome",
+        "welcomeAlt": "Karibu TripPay",
+        "body": "Travel light. Pay for tours, hotels, safari jeeps and park fees without carrying bundles of cash.",
+        "bodyAlt": "Safiri kwa amani. Lipia safari, hoteli na mbuga za wanyama bila kubeba pesa taslimu.",
+        "currencies": "TZS · USD · EUR · GBP",
+        "protection": "Licensed escrow protection",
+        "copyright": "© 2026 TripPay",
+        "cities": "Arusha & Dar es Salaam"
+      },
+      "stepChip": "Step 1 / Hatua ya 1",
+      "stepCount": "1 / 4",
+      "title": "Choose language",
+      "titleAlt": "Chagua lugha",
+      "subtitle": "Select the language you prefer for your TripPay account. You can change it anytime in your profile.",
+      "subtitleAlt": "Chagua lugha unayopendelea. Unaweza kubadilisha wakati wowote.",
+      "options": {
+        "en": {
+          "badge": "Default",
+          "description": "International traveller & global operator view"
+        },
+        "sw": {
+          "badge": "Lugha ya Taifa",
+          "description": "Kwa watalii, madereva wa safari, na wafanyabiashara"
+        }
+      },
+      "supportNote": "Customer support is available in Kiswahili and English, 24/7.",
+      "continue": "Continue / Endelea",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in / Ingia",
+      "progressAria": "Onboarding progress: step 1 of 4",
+      "steps": {
+        "s1": "1. Language",
+        "s2": "2. Account",
+        "s3": "3. Verify",
+        "s4": "4. Review"
+      }
+    },
+    "steps": {
+      "language": "Language",
+      "account": "Account",
+      "code": "Code",
+      "verification": "Verification",
+      "aria": "Step {current} of {total}"
+    },
+    "signup": {
+      "title": "Create your TripPay account",
+      "howUse": "How will you use TripPay?",
+      "types": {
+        "traveller": {
+          "title": "I'm travelling",
+          "body": "Plan, pay and track trip money"
+        },
+        "business": {
+          "title": "I run a tourism business",
+          "body": "Collect payments, pay suppliers, reconcile bookings"
+        }
+      },
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone number",
+      "dialCode": "Country code",
+      "password": {
+        "label": "Password",
+        "strength": "Strength: {level}",
+        "levels": {
+          "weak": "Weak",
+          "fair": "Fair",
+          "good": "Good",
+          "strong": "Strong"
+        },
+        "tips": {
+          "length": "use at least 8 characters",
+          "uppercase": "add a capital letter to make it strong",
+          "number": "add a number to make it strong",
+          "symbol": "add a symbol to make it stronger"
+        }
+      },
+      "terms": "I accept the <terms>Terms</terms> and <privacy>Privacy Notice</privacy>",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "securityNote": "We only ask for what we need to run your account.",
+      "errors": {
+        "name": "Enter your full name.",
+        "email": "Enter a valid email address.",
+        "phone": "Enter a valid phone number, e.g. 754 123 456.",
+        "password": "Use at least 8 characters.",
+        "terms": "You need to accept the terms to continue."
+      }
+    },
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Log in with your email or phone number.",
+      "identifier": "Email or phone",
+      "password": "Password",
+      "submit": "Log in",
+      "noAccount": "New to TripPay?",
+      "signupLink": "Create an account",
+      "errors": {
+        "identifier": "Enter your email or phone number.",
+        "password": "Your password is at least 8 characters."
+      }
+    },
+    "verify": {
+      "title": "Enter the 6-digit code",
+      "subtitle": "We sent a code to your phone. It expires in 10 minutes.",
+      "digitAria": "Digit {position} of 6",
+      "checking": "Checking the code…",
+      "invalid": "That code didn't match. Please try again.",
+      "pinNotice": "This screen is the only place TripPay asks for a code. We never ask for PINs or codes by chat, call or email.",
+      "resend": "Resend code"
+    },
+    "setup": {
+      "title": "Set your preferences",
+      "subtitle": "You can change these anytime in your profile.",
+      "displayCurrency": "Display currency",
+      "currencyHint": "Balances stay in their own currency; this sets how summaries display.",
+      "notifyPayments": "Payment updates",
+      "notifyRates": "Exchange-rate alerts",
+      "essentialNote": "Essential security and service messages are always sent.",
+      "finish": "Go to my wallet"
+    },
+    "verification": {
+      "title": "We're checking your details",
+      "steps": {
+        "contact": "Phone and email verified",
+        "identity": "Identity check",
+        "identityHint": "Usually takes under 24 hours. We'll notify you by SMS and email.",
+        "ready": "Account ready",
+        "notStarted": "Not started"
+      },
+      "while": {
+        "title": "While you wait, you can",
+        "browse": "Browse businesses and experiences",
+        "savings": "Set up a trip savings goal",
+        "rates": "View exchange rates",
+        "cta": "Explore TripPay"
+      },
+      "locked": {
+        "title": "Unlocks after approval",
+        "payments": "Making payments",
+        "funding": "Adding funds to your wallet"
+      },
+      "needsInfo": {
+        "title": "We need one more document",
+        "body": "The photo of your passport was blurry. Please upload a clear photo of the page with your picture.",
+        "questions": "Questions?",
+        "contact": "Contact support",
+        "caseRef": "Case ref",
+        "upload": "Upload document",
+        "uploadedToast": "Document received. Thank you.",
+        "uploaded": "Document received — we're reviewing it and will update you by SMS and email."
+      }
+    }
+  },
+  "home": {
+    "greeting": "Karibu, {name}",
+    "quickActions": "Quick actions",
+    "actions": {
+      "pay": "Pay",
+      "savings": "Savings",
+      "rates": "Rates",
+      "transfer": "Transfer"
+    },
+    "requestsTitle": "Requests waiting for you",
+    "payNow": "Pay now",
+    "recentTitle": "Recent activity",
+    "viewAll": "View all",
+    "otherBalances": "Other balances"
+  },
+  "wallet": {
+    "title": "Wallet",
+    "available": "Available",
+    "pending": "Pending",
+    "held": "Held",
+    "updated": "Updated {time}",
+    "pendingNotSpendable": "Pending money is not spendable until it clears.",
+    "addFunds": "Add funds",
+    "addFundsExplainer": "Top up your TripPay wallet from a supported payment method.",
+    "addFundsMockNote": "This prototype doesn't move real money. In the live app you would authorise the top-up on your provider's own prompt.",
+    "activityTitle": "Activity",
+    "emptyTitle": "No transactions yet",
+    "emptyBody": "Your payments and top-ups will appear here with their receipts."
+  },
+  "pay": {
+    "title": "Pay",
+    "subtitle": "Details → Review → Done. Nothing is sent until you confirm.",
+    "whoTitle": "Who are you paying?",
+    "recipientLabel": "Phone, TripPay ID or business code",
+    "recipientHint": "Try TP-BIZ-20418 (Kilimanjaro Trails Ltd) or TP-BIZ-11205.",
+    "lookingUp": "Finding the recipient…",
+    "notFound": "No verified recipient matches that code. Check it and try again.",
+    "verifiedBusiness": "Verified business",
+    "unverifiedBusiness": "Not verified — double-check before paying",
+    "amount": "Amount",
+    "invalidAmount": "Enter a valid amount for this currency.",
+    "availableNote": "Available: {available} · Pending {pending} not included",
+    "method": "Payment method",
+    "methods": {
+      "mobile_money": "Mobile money",
+      "card": "Card",
+      "bank_transfer": "Bank transfer"
+    },
+    "continue": "Continue",
+    "paying": "Paying",
+    "fromWallet": "from {currency} wallet",
+    "fee": "Fee",
+    "feeWithPct": "TripPay fee ({pct}%)",
+    "total": "Total",
+    "irreversibleNotice": "Payments to verified businesses can't be reversed once confirmed.",
+    "confirmAndPay": "Confirm & pay",
+    "editDetails": "Edit details",
+    "paidTo": "paid to {merchant}",
+    "pendingNotice": "We're waiting for the provider's confirmation. Don't pay again — we'll update you.",
+    "failedNotice": "The payment didn't go through. No money left your wallet.",
+    "reference": "Reference",
+    "date": "Date",
+    "newAvailable": "New available",
+    "viewReceipt": "View receipt",
+    "backToWallet": "Back to wallet",
+    "tryAgain": "Try again",
+    "qrAria": "Payment QR code for {label}",
+    "steps": {
+      "details": "Details",
+      "review": "Review",
+      "done": "Done",
+      "aria": "Step {current} of {total}"
+    }
+  },
+  "transactions": {
+    "title": "Activity",
+    "searchPlaceholder": "Search by reference, merchant or booking",
+    "filters": {
+      "all": "All",
+      "successful": "Successful",
+      "pending": "Pending",
+      "failed": "Failed"
+    },
+    "emptyTitle": "Nothing here yet",
+    "emptyBody": "Transactions matching your filter will appear here.",
+    "back": "Back to activity",
+    "notFoundTitle": "Transaction not found",
+    "notFoundBody": "This reference doesn't match any transaction in your account.",
+    "unknownParty": "Unknown",
+    "reference": "Reference",
+    "bookingRef": "Booking",
+    "method": "Method",
+    "methods": {
+      "mobile_money": "Mobile money",
+      "card": "Card",
+      "bank_transfer": "Bank transfer"
+    },
+    "providerRef": "Provider ref",
+    "date": "Date",
+    "timeline": "Timeline",
+    "reportIssue": "Report a problem with this payment",
+    "table": {
+      "party": "Recipient / sender",
+      "date": "Date",
+      "reference": "Reference",
+      "status": "Status",
+      "amount": "Amount",
+      "sortByDate": "Sort by date"
+    },
+    "detailTitle": "Transaction details"
+  },
+  "savings": {
+    "title": "Trip savings",
+    "subtitle": "A planning tool — money isn't locked or guaranteed.",
+    "byDate": "by {date}",
+    "ofTarget": "of",
+    "pctSaved": "{pct}% saved",
+    "suggested": "Suggested monthly:",
+    "progressAria": "{pct} percent of goal saved",
+    "pause": "Pause",
+    "resume": "Resume",
+    "financingTeaser": "You've passed 50% — see financing",
+    "emptyTitle": "No goals yet",
+    "emptyBody": "Create a goal for your safari, flights or beach week and track progress.",
+    "financing": {
+      "title": "Travel financing",
+      "body": "Reaching 50% of a goal may qualify you for an assessment by a licensed lending partner — it is never a promise of a loan."
+    },
+    "planningDisclaimer": "Savings goals are a planning feature. They do not lock, protect or guarantee funds.",
+    "form": {
+      "newGoal": "New goal",
+      "title": "Create a savings goal",
+      "subtitle": "Give the trip a name, a target and a date.",
+      "name": "Goal name",
+      "namePlaceholder": "Serengeti safari",
+      "target": "Target amount",
+      "targetDate": "Target date",
+      "submit": "Create goal",
+      "planningNote": "A goal is a plan, not a locked deposit.",
+      "errors": {
+        "name": "Give the goal a name.",
+        "amount": "Enter a valid target amount.",
+        "targetDate": "Pick a target date."
+      },
+      "created": "Goal created."
+    },
+    "paused": "Goal paused.",
+    "resumed": "Goal resumed."
+  },
+  "rates": {
+    "title": "Currency monitor",
+    "subtitle": "Indicative rates for planning — not a guaranteed exchange offer.",
+    "indicative": "Indicative",
+    "guaranteed": "Guaranteed",
+    "sourceNote": "Source: indicative market feed. Rates refresh periodically and can change at any time.",
+    "alertsTitle": "Your alerts",
+    "alertRow": "{pair} {direction} {rate}",
+    "direction": {
+      "above": "above",
+      "below": "below"
+    },
+    "alertActive": "Active",
+    "alertPaused": "Paused",
+    "alertsNote": "Alerts are informational only and can lag the market.",
+    "exchange": {
+      "title": "Currency exchange",
+      "body": "Exchanging currencies inside TripPay needs regulatory approval and a licensed partner. Until then, rates are view-only."
+    },
+    "chartTitle": "30-day trend",
+    "chartAria": "Line chart of the {pair} exchange rate over the last 30 days"
+  },
+  "transfer": {
+    "title": "Send to a friend",
+    "explainer": "Transfers between TripPay users could help you split safari costs or send money without cash.",
+    "point1": "You'd always see the recipient's verified name before confirming.",
+    "point2": "Limits, fraud monitoring and a clear cancellation policy come first.",
+    "gateNote": "This feature requires regulatory approval and is not available yet. It is shown so you know what's coming."
+  },
+  "financing": {
+    "title": "Travel financing",
+    "explainer": "A possible future service connecting eligible travellers with a licensed lending partner for travel costs.",
+    "howTitle": "How it would work",
+    "step1": "Save towards a trip goal — reaching 50% may trigger an eligibility assessment.",
+    "step2": "A licensed partner reviews affordability and explains fees, APR and repayments before you commit.",
+    "step3": "You see the total repayment and every date before accepting anything.",
+    "eligibilityNote": "Reaching 50% of a savings goal is only a possible trigger for assessment — never a promise or automatic approval of a loan.",
+    "gateNote": "Requires a licensed lender, responsible-lending checks and compliance approval. Not available in this prototype.",
+    "startSaving": "Start with a savings goal"
+  },
+  "assistant": {
+    "title": "TripPay assistant",
+    "subtitle": "Quick answers about how TripPay works.",
+    "welcome": "Habari! Ask me about payments, fees, pending statuses or refunds. I can't see your balances or transactions — for anything account-specific, I'll point you to a human.",
+    "inputPlaceholder": "Ask about fees, pending payments…",
+    "send": "Send",
+    "boundaryNote": "The assistant never invents balances, payment results or rates. Account questions go to human support.",
+    "escalate": "Talk to a human instead",
+    "answers": {
+      "pending": "Pending means we're waiting for the provider to confirm. Don't pay again — the status updates automatically and you'll get a notification.",
+      "fees": "Every fee is shown on the review screen before you confirm, and again on the receipt. TripPay's standard fee in this prototype is 1% per payment.",
+      "refunds": "Refunds return to your wallet with their own reference. If a payment failed, nothing left your wallet.",
+      "pin": "TripPay never asks for your PIN or one-time codes — not in chat, not by phone. You only authorise payments on your provider's own prompt.",
+      "fallback": "I can help with how payments, fees, savings and statuses work. For your specific account or transaction, please open a support case — a human will pick it up with a case reference."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "unread": "Unread",
+    "emptyTitle": "All caught up",
+    "emptyBody": "Payment updates, security alerts and savings milestones appear here.",
+    "items": {
+      "paymentSuccessTitle": "Payment successful",
+      "paymentSuccessBody": "{amount} to {merchant} completed. Receipt is ready.",
+      "paymentPendingTitle": "Payment pending",
+      "paymentPendingBody": "{amount} to {merchant} is waiting for provider confirmation. Don't pay again.",
+      "savingsMilestoneTitle": "Savings milestone",
+      "savingsMilestoneBody": "\"{goal}\" reached {pct}% of its target. Keep going!",
+      "newSignInTitle": "New sign-in",
+      "newSignInBody": "Your account was accessed from {device}. If this wasn't you, contact support."
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "A human picks up every case and replies with a reference.",
+    "pinNotice": "Support staff will never ask for your PIN, password or one-time codes.",
+    "newCaseTitle": "Open a new case",
+    "subject": "Subject",
+    "details": "What happened?",
+    "submit": "Submit case",
+    "created": "Case {id} created. We'll update you in notifications.",
+    "casesTitle": "Your cases",
+    "emptyTitle": "No cases",
+    "emptyBody": "When you open a support case it will show here with its status.",
+    "errors": {
+      "subject": "Give the case a short subject.",
+      "details": "Describe what happened (at least 10 characters)."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "settingsNav": "Profile settings",
+    "links": {
+      "security": "Security",
+      "language": "Language",
+      "legal": "Legal & privacy",
+      "support": "Support"
+    },
+    "logout": "Log out",
+    "closeAccount": "Close account",
+    "closeAccountExplainer": "Closing your account stops all services. Any remaining balance would be returned through a supported method after verification.",
+    "closeAccountMockNote": "Account closure isn't wired up in this prototype."
+  },
+  "bizOnboarding": {
+    "title": "Business onboarding",
+    "subtitle": "Three steps to start collecting payments.",
+    "steps": {
+      "register": {
+        "title": "Register your business",
+        "body": "Legal name, category and location — matched to the business registry."
+      },
+      "verify": {
+        "title": "Verify the organisation",
+        "body": "Licence and ownership checks keep the marketplace trustworthy."
+      },
+      "team": {
+        "title": "Invite your team",
+        "body": "Owners, finance and staff roles each see exactly what they need."
+      }
+    },
+    "goToDashboard": "Go to dashboard"
+  },
+  "bizDashboard": {
+    "title": "Dashboard",
+    "subtitle": "Last 14 days · Africa/Dar_es_Salaam (EAT) · gross amounts in TZS",
+    "tiles": {
+      "revenue": "Revenue (gross)",
+      "count": "Payments",
+      "successRate": "Success rate",
+      "pendingSettlement": "Pending settlement"
+    },
+    "tilesHint": {
+      "revenue": "Successful payments, before fees",
+      "count": "All attempts in period",
+      "successRate": "Successful ÷ finished",
+      "pendingSettlement": "Net, awaiting payout"
+    },
+    "chartTitle": "Payment volume (TZS), last 14 days",
+    "chartAria": "Line chart of daily payment volume in Tanzanian shillings over the last 14 days",
+    "volume": "Volume",
+    "dataNote": "Daily totals, EAT timezone, gross of fees; refunds excluded.",
+    "recentTitle": "Recent payments",
+    "viewAll": "View all"
+  },
+  "bizRequests": {
+    "title": "Payment requests",
+    "subtitle": "Create a request, share the link or QR, and track what's been paid.",
+    "noPermission": "Your role can't create payment requests. Ask an owner or finance teammate.",
+    "emptyTitle": "No requests yet",
+    "emptyBody": "Requests you create will appear here with their status.",
+    "form": {
+      "title": "New payment request",
+      "bookingRef": "Booking reference",
+      "customerName": "Customer name",
+      "customerContact": "Customer email or phone",
+      "optional": "(optional)",
+      "amount": "Amount",
+      "expiry": "Expiry",
+      "expiryOptions": {
+        "h1": "1 hour",
+        "h6": "6 hours",
+        "h24": "24 hours (default)",
+        "h72": "72 hours"
+      },
+      "description": "Description",
+      "descriptionPlaceholder": "3-day Ngorongoro safari",
+      "feePayer": "Who pays the fee",
+      "feePayers": {
+        "customer": "Customer",
+        "business": "My business"
+      },
+      "feeLineCustomer": "Customer pays {amount} + {fee} fee = {total}",
+      "feeLineBusiness": "Customer pays {amount}; you receive {net} after the {fee} fee",
+      "quoting": "Getting the fee quote…",
+      "submit": "Create request",
+      "createdToast": "Request {ref} created",
+      "errors": {
+        "bookingRef": "Enter the booking reference.",
+        "customerName": "Enter the customer's name.",
+        "amount": "Enter a valid amount.",
+        "description": "Describe what this request is for."
+      }
+    },
+    "preview": {
+      "title": "Live preview",
+      "scanToPay": "Scan to pay",
+      "booking": "Booking {ref}",
+      "noBooking": "Booking reference appears here",
+      "expiresAfter": "Expires {duration} after creation",
+      "expiresIn": "Expires in {time}",
+      "copyLink": "Copy payment link",
+      "copied": "Payment link copied",
+      "copyFailed": "Couldn't copy — your browser blocked clipboard access.",
+      "downloadQr": "Download QR",
+      "send": "Send to customer",
+      "sent": "Payment link sent to {contact}",
+      "needContact": "Add a customer email or phone to send the link directly.",
+      "createFirst": "Create the request to activate the link, QR and sending.",
+      "liveNote": "This request is live — the customer sees exactly this."
+    },
+    "recent": {
+      "title": "Recent requests",
+      "bookingRef": "Booking ref",
+      "customer": "Customer",
+      "description": "Description",
+      "amount": "Amount",
+      "status": "Status",
+      "created": "Created",
+      "walkIn": "Walk-in customer"
+    }
+  },
+  "bizTransactions": {
+    "title": "Transactions",
+    "subtitle": "Incoming customer payments with fees and booking references.",
+    "columns": {
+      "reference": "Reference",
+      "booking": "Booking",
+      "date": "Date (EAT)",
+      "amount": "Amount",
+      "fee": "Fee",
+      "status": "Status"
+    },
+    "emptyTitle": "No transactions",
+    "emptyBody": "Customer payments will appear here as they happen."
+  },
+  "bizSuppliers": {
+    "title": "Suppliers",
+    "subtitle": "Pay guides, drivers and lodges — with approvals built in.",
+    "addSupplier": "Add supplier",
+    "addSupplierExplainer": "New suppliers are verified before they can be paid.",
+    "addSupplierMockNote": "In this prototype, supplier onboarding is not wired up yet. Verified demo suppliers are provided.",
+    "tabs": {
+      "directory": "Directory",
+      "queue": "Approval queue"
+    },
+    "table": {
+      "supplier": "Supplier",
+      "type": "Type",
+      "status": "Status",
+      "method": "Payout method",
+      "lastPaid": "Last paid",
+      "pay": "Pay",
+      "actions": "Actions"
+    },
+    "methods": {
+      "mobile_money": "Mobile money",
+      "bank": "Bank"
+    },
+    "methodMasked": "{method} ·· {last3}",
+    "emptyTitle": "No suppliers yet",
+    "emptyBody": "Add the guides, drivers and lodges you pay regularly.",
+    "payoutsTitle": "Payout history",
+    "queue": {
+      "emptyTitle": "Nothing waiting for approval",
+      "emptyBody": "Submitted payouts appear here until they're approved or rejected.",
+      "meta": "Requested by {name} · {date} · Ref {ref}",
+      "needsSecond": "Needs 2nd approver",
+      "approve": "Approve",
+      "reject": "Reject",
+      "reasonLabel": "Reason for rejecting",
+      "reasonRequired": "(required)",
+      "reasonError": "Add a reason so the requester knows what to fix",
+      "cancel": "Cancel",
+      "confirmReject": "Confirm reject",
+      "approvedToast": "Payout to {name} approved",
+      "rejectedToast": "Payout to {name} rejected"
+    },
+    "payout": {
+      "title": "Pay supplier",
+      "supplier": "Supplier",
+      "supplierPlaceholder": "Choose a supplier",
+      "verifiedLine": "Verified · {method} ·· {last3}",
+      "amount": "Amount",
+      "reference": "Reference / note",
+      "referencePlaceholder": "Guide fee · KT-2026-0412",
+      "quoting": "Getting the fee quote…",
+      "amountLabel": "Amount",
+      "feeLabel": "Payout fee",
+      "totalFromWallet": "Total from wallet",
+      "thresholdNote": "Payouts above USD 1,000.00 need a second approver.",
+      "submitApproval": "Submit for approval",
+      "confirm": "Submit payout",
+      "sentForApproval": "Submitted. This payout needs a second approver before it's paid out.",
+      "sentToQueue": "Submitted to the approval queue. You'll see it under Approval queue.",
+      "done": "Done",
+      "quoteFailed": "We couldn't price this payout. Please try again.",
+      "invalidAmount": "Enter a valid amount."
+    }
+  },
+  "bizSettlements": {
+    "title": "Settlements",
+    "subtitle": "When collected money becomes available to your business.",
+    "gross": "Gross",
+    "fees": "Fees",
+    "net": "Net",
+    "txCount": "{count} transactions",
+    "expected": "Expected {time}",
+    "emptyTitle": "No settlements",
+    "emptyBody": "Settlement batches will appear here once payments settle.",
+    "definitionNote": "Amounts are gross of provider fees, in TZS, grouped by EAT calendar days."
+  },
+  "bizReports": {
+    "title": "Reports & reconciliation",
+    "subtitle": "Match payments to bookings and export for your accountant.",
+    "exportCsv": "Export CSV",
+    "exportPdf": "Export PDF",
+    "filters": {
+      "dateRange": "Date range",
+      "timezone": "Timezone",
+      "currency": "Currency",
+      "status": "Status",
+      "method": "Method",
+      "ranges": {
+        "d7": "Last 7 days",
+        "d30": "Last 30 days",
+        "d90": "Last 90 days"
+      },
+      "tzEat": "EAT (UTC+3)",
+      "currencyUsd": "USD (converted)",
+      "statuses": {
+        "all": "All statuses",
+        "settled": "Settled",
+        "pending": "Pending",
+        "refunded": "Refunded"
+      },
+      "methods": {
+        "all": "All methods",
+        "mobile_money": "Mobile money",
+        "card": "Card",
+        "bank": "Bank transfer"
+      }
+    },
+    "tiles": {
+      "gross": "Gross",
+      "refunds": "Refunds",
+      "fees": "Fees",
+      "net": "Net",
+      "settled": "Settled",
+      "pending": "Pending"
+    },
+    "table": {
+      "title": "Transactions matched to bookings",
+      "unmatchedCount": "{count} unmatched",
+      "reference": "Reference",
+      "bookingRef": "Booking ref",
+      "customer": "Customer",
+      "gross": "Gross",
+      "fee": "Fee",
+      "status": "Status",
+      "match": "Match",
+      "matched": "Matched",
+      "unmatched": "Unmatched",
+      "walkIn": "Walk-in customer",
+      "actions": "Actions"
+    },
+    "matchDialog": {
+      "action": "Match to booking",
+      "title": "Match to booking",
+      "body": "Link transaction {reference} to a booking reference.",
+      "bookingRef": "Booking reference",
+      "error": "Use the booking format, e.g. KT-2026-0405.",
+      "submit": "Match transaction",
+      "success": "{reference} matched to {ref}"
+    },
+    "definitions": {
+      "title": "How these figures are defined",
+      "period": {
+        "title": "Period & timezone",
+        "body": "00:00–23:59 EAT (UTC+3) for each day in the range."
+      },
+      "grossNet": {
+        "title": "Gross vs net",
+        "body": "Gross is successful payments before fees. Net = gross − refunds − fees."
+      },
+      "refunds": {
+        "title": "Refunds",
+        "body": "Counted on the date issued, not the original payment date."
+      },
+      "currency": {
+        "title": "Currency",
+        "body": "Non-USD amounts are converted at the indicative rate on the payment date."
+      }
+    }
+  },
+  "bizTeam": {
+    "title": "Team",
+    "subtitle": "Role-based access for your staff.",
+    "invite": "Invite member",
+    "lastActive": "active {time}",
+    "roles": {
+      "biz_owner": "Owner",
+      "biz_finance": "Finance",
+      "biz_staff": "Staff",
+      "traveller": "Traveller",
+      "admin_support": "Support",
+      "admin_risk": "Risk",
+      "admin_super": "Super admin"
+    },
+    "rolesNote": "Owners manage everything; finance can create payouts and export reports; staff can create payment requests.",
+    "emptyTitle": "Just you so far",
+    "emptyBody": "Invite teammates and give each a role."
+  },
+  "bizSettings": {
+    "title": "Settings",
+    "subtitle": "Your business profile and payout preferences.",
+    "profileTitle": "Business profile",
+    "name": "Business name",
+    "category": "Category",
+    "code": "TripPay business code",
+    "verification": "Verification",
+    "editNote": "Verified details can only be changed through a support case, to protect your customers.",
+    "payoutTitle": "Settlement & payouts",
+    "settlementMethod": "Settlement method",
+    "settlementMethodValue": "Mobile money · daily",
+    "requestChange": "Request a change",
+    "payoutNote": "Settlement changes require verification and take effect after review."
+  },
+  "bizSupport": {
+    "title": "Support",
+    "subtitle": "Payment issues, verification and account help for your business.",
+    "escalationTitle": "Something urgent?",
+    "escalationBody": "Suspected fraud, a duplicate charge or a payout stuck pending: open a case and it is prioritised with a reference.",
+    "casesTitle": "Your cases",
+    "emptyTitle": "No cases",
+    "emptyBody": "Support cases for your business will appear here."
+  },
+  "admin": {
+    "login": {
+      "title": "Staff sign-in",
+      "subtitle": "Multi-factor authentication is required for all staff.",
+      "internalBadge": "Internal",
+      "email": "Work email",
+      "password": "Password",
+      "otp": "MFA code",
+      "submit": "Sign in securely",
+      "accessNote": "Access is role-limited and every sensitive action is audit-logged.",
+      "errors": {
+        "email": "Enter your work email.",
+        "password": "Enter your password.",
+        "otp": "Enter the 6-digit MFA code."
+      }
+    },
+    "overview": {
+      "title": "Overview",
+      "tiles": {
+        "paymentsToday": "Payments today",
+        "successRate": "Success rate",
+        "failed": "Failed",
+        "pendingOver15": "Pending > 15 min",
+        "openCases": "Open support cases",
+        "riskFlags": "Risk flags"
+      },
+      "health": {
+        "title": "Provider health",
+        "webhookP95": "Webhook p95 {value}",
+        "noWebhooks": "No webhooks",
+        "downSince": "Down since {time}"
+      },
+      "recon": {
+        "title": "Reconciliation",
+        "yesterday": "Yesterday:",
+        "matched": "{count} matched",
+        "differences": "{count} differences",
+        "needsReview": "Needs review",
+        "open": "Open reconciliation"
+      },
+      "search": {
+        "title": "Transaction search",
+        "placeholder": "Search by reference, phone, name or provider ref…",
+        "emptyTitle": "No transactions found",
+        "emptyBody": "Try a reference like TP-9HD1-77QE or part of a phone number.",
+        "columns": {
+          "reference": "Reference",
+          "user": "User",
+          "phone": "Phone",
+          "merchant": "Merchant",
+          "amount": "Amount",
+          "provider": "Provider",
+          "status": "Status",
+          "created": "Created"
+        }
+      },
+      "detail": {
+        "user": "User",
+        "phone": "Phone",
+        "amount": "Amount",
+        "fee": "fee",
+        "providerRef": "Provider ref",
+        "timeline": "Timeline",
+        "reveal": "Reveal (logged)",
+        "revealLogged": "Phone revealed — recorded in the audit log.",
+        "refund": "Refund",
+        "reverse": "Reverse",
+        "flag": "Flag",
+        "reverseTitle": "Reverse {reference}",
+        "reverseBody": "The payment is returned in full and both ledgers are corrected.",
+        "flagTitle": "Flag {reference}",
+        "flagBody": "Flags the transaction for the risk team to review.",
+        "steps": {
+          "created": "Created",
+          "sent": "Sent to provider",
+          "awaiting": "Awaiting webhook",
+          "completed": "Completed",
+          "failed": "Failed"
+        }
+      },
+      "refund": {
+        "trigger": "Refund",
+        "title": "Refund {reference}",
+        "line": "Refund {amount} to {user} via {provider}",
+        "reason": "Reason (required)",
+        "reasonPlaceholder": "Choose a reason",
+        "reasons": {
+          "timeout": "Customer charged but provider timed out",
+          "duplicate": "Duplicate charge",
+          "customerRequest": "Customer request within policy",
+          "fraud": "Suspected fraud"
+        },
+        "notes": "Notes",
+        "notesPlaceholder": "Case CS-26-04212, customer sent provider SMS.",
+        "auditNote": "This action is recorded in the audit log.",
+        "cancel": "Cancel",
+        "confirm": "Confirm refund",
+        "success": "Refund for {reference} submitted and audit-logged."
+      },
+      "maskingNote": "Personal data is masked by default across the portal. Unmasking requires a reason and is audit-logged."
+    },
+    "verification": {
+      "title": "Verification queue",
+      "subtitle": "Traveller and business identity checks awaiting review.",
+      "types": {
+        "traveller": "Traveller",
+        "business": "Business"
+      },
+      "submitted": "submitted {time}",
+      "approve": "Approve",
+      "approveTitle": "Approve {name}",
+      "approveBody": "Confirm the documents match the registry before approving.",
+      "requestInfo": "Request info",
+      "moreInfoTitle": "Request more information from {name}",
+      "moreInfoBody": "The applicant is notified and the case returns to the queue.",
+      "emptyTitle": "Queue is clear",
+      "emptyBody": "New verification submissions will appear here."
+    },
+    "transactions": {
+      "title": "Transaction search",
+      "subtitle": "Search by reference, merchant or provider reference. Customer identities stay masked.",
+      "searchPlaceholder": "TP-8WQ3-55JR, merchant, provider ref…",
+      "columns": {
+        "reference": "Reference",
+        "merchant": "Merchant",
+        "date": "Date (EAT)",
+        "total": "Total",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "refund": "Refund",
+      "refundTitle": "Refund {reference}",
+      "refundBody": "The full amount returns to the customer's wallet with a new reference.",
+      "flag": "Flag",
+      "flagTitle": "Flag {reference} for risk review",
+      "flagBody": "The transaction is routed to the risk team's queue.",
+      "emptyTitle": "No matches",
+      "emptyBody": "No transaction matches that search."
+    },
+    "disputes": {
+      "title": "Refunds & disputes",
+      "subtitle": "Customer-reported issues awaiting resolution.",
+      "opened": "opened {time}",
+      "resolveRefund": "Resolve with refund",
+      "resolveRefundTitle": "Refund dispute {reference}",
+      "resolveRefundBody": "The disputed amount is returned and the case closes as refunded.",
+      "reject": "Reject",
+      "rejectTitle": "Reject dispute {reference}",
+      "rejectBody": "The customer is notified with the reason you provide.",
+      "emptyTitle": "No open disputes",
+      "emptyBody": "New disputes will appear here."
+    },
+    "providers": {
+      "title": "Provider health",
+      "subtitle": "Payment rails, success rates and webhook backlogs.",
+      "successRate": "Success rate (24h)",
+      "pendingWebhooks": "Pending webhooks",
+      "lastIncident": "Last incident",
+      "neutralNote": "Providers are shown with neutral labels in this prototype."
+    },
+    "reconciliation": {
+      "title": "Daily reconciliation",
+      "subtitle": "TripPay ledger vs the provider settlement file, per day and rail.",
+      "filters": {
+        "date": "Date",
+        "provider": "Provider"
+      },
+      "upload": "Upload settlement file",
+      "uploadToast": "{file} received — the reconciliation run has been queued.",
+      "tiles": {
+        "ledger": "TripPay ledger total",
+        "entries": "{count} entries",
+        "providerFile": "Provider settlement file total",
+        "lines": "{count} lines",
+        "difference": "Difference",
+        "balanced": "Balanced",
+        "balancedNote": "Ledger and settlement file agree.",
+        "exceptionsToResolve": "{count} exceptions to resolve"
+      },
+      "exceptions": {
+        "title": "Exceptions",
+        "emptyTitle": "No exceptions",
+        "emptyBody": "This provider-day is balanced — nothing to resolve.",
+        "columns": {
+          "reference": "Reference",
+          "ledgerAmount": "Ledger amount",
+          "providerAmount": "Provider amount",
+          "statuses": "Ledger vs provider status",
+          "type": "Exception type",
+          "assignee": "Assignee",
+          "actions": "Actions"
+        },
+        "types": {
+          "missing_at_provider": "Missing at provider",
+          "amount_mismatch": "Amount mismatch",
+          "status_mismatch": "Status mismatch",
+          "duplicate": "Duplicate"
+        },
+        "secondLine": "(2nd line)",
+        "unassigned": "Unassigned",
+        "resolve": "Resolve with correction entry",
+        "resolveTitle": "Correction entry for {reference}",
+        "resolveBody": "A correction entry adjusts the ledger with a full audit trail — balances are never silently edited."
+      },
+      "runs": {
+        "title": "Run history",
+        "columns": {
+          "run": "Run",
+          "date": "Date",
+          "provider": "Provider",
+          "file": "File",
+          "result": "Result",
+          "by": "By"
+        },
+        "differences": "{count} differences",
+        "balanced": "Balanced",
+        "auto": "Auto"
+      },
+      "correctionNote": "Mismatches are fixed with correction entries — balances are never silently edited."
+    },
+    "config": {
+      "title": "Fees & limits",
+      "subtitle": "Operational configuration. Every change needs a reason and is audit-logged.",
+      "rows": {
+        "feeMobileMoney": {
+          "label": "Mobile money payment fee",
+          "value": "1.0%"
+        },
+        "feeCard": {
+          "label": "Card payment fee",
+          "value": "2.5%"
+        },
+        "limitDaily": {
+          "label": "Traveller daily limit",
+          "value": "TZS 5,000,000"
+        },
+        "limitDualApproval": {
+          "label": "Payout dual-approval threshold",
+          "value": "TZS 2,000,000"
+        }
+      },
+      "change": "Change",
+      "changeTitle": "Change: {label}",
+      "changeBody": "The new value takes effect after a second admin approves it.",
+      "noPermission": "View only",
+      "dualApprovalNote": "High-risk configuration changes require dual approval before they apply."
+    },
+    "roles": {
+      "title": "Roles & permissions",
+      "subtitle": "What each staff role can do. Changes are restricted to super admins.",
+      "permission": "Permission",
+      "roleNames": {
+        "admin_support": "Support",
+        "admin_risk": "Risk",
+        "admin_super": "Super admin"
+      },
+      "permissions": {
+        "admin_transactions_search": "Search transactions",
+        "admin_verification_review": "Review verifications",
+        "admin_disputes_resolve": "Resolve disputes",
+        "admin_refunds_issue": "Issue refunds",
+        "admin_config_change": "Change fees & limits",
+        "admin_roles_manage": "Manage roles",
+        "admin_audit_read": "Read audit log"
+      },
+      "granted": "Yes",
+      "notGranted": "No",
+      "manageNote": "Role changes themselves are sensitive actions: reason required, audit-logged, dual approval."
+    },
+    "auditLog": {
+      "title": "Audit log",
+      "subtitle": "Every sensitive action, who did it, and why.",
+      "columns": {
+        "when": "When (EAT)",
+        "actor": "Actor",
+        "action": "Action",
+        "target": "Target",
+        "reason": "Reason"
+      },
+      "retentionNote": "Audit entries are immutable and retained per the data-retention policy."
+    },
+    "reasonDialog": {
+      "reasonLabel": "Reason (required)",
+      "reasonPlaceholder": "Why are you taking this action?",
+      "reasonTooShort": "Give at least 10 characters so the audit log is meaningful.",
+      "auditNotice": "This action is audit-logged with your name, the time and this reason.",
+      "confirm": "Confirm action",
+      "logged": "Action recorded in the audit log."
+    }
+  },
+  "meta": {
+    "description": "Built for Every Tourism Stakeholder – Travel • Pay • Explore. Travel payments and money management for tourists and tourism businesses in Tanzania."
+  }
+}
